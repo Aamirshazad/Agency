@@ -2,7 +2,7 @@ import { HelpCircleIcon } from "lucide-react";
 
 export default function Header(){
     return (
-<div className="absolute left-0 right-0 top-2 z-40 pt-14">
+<div className="absolute left-0 right-0 top-2 z-40 pt-14 ">
     <div className="mx-auto max-w-7xl px-6 lg:px-8">
 
     <div className="mx-auto max-w-2xl lg:max-w-none">
