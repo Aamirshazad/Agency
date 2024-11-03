@@ -2,7 +2,7 @@ import React from 'react';
 
 const Case1 = () => {
   return (
-    <div className="mx-auto max-w-6xl px-6 lg:px-8 mr-8 group/section [counter-increment:section]"> {/* Changed max-w-7xl to max-w-6xl */}
+    <div className="mx-auto max-w-6xl px-6 mt-20 lg:px-8 mr-8 group/section [counter-increment:section]"> {/* Changed max-w-7xl to max-w-6xl */}
       <div className="mx-auto max-w-xl lg:max-w-none"> {/* Changed max-w-2xl to max-w-xl */}
         <div className="lg:flex lg:items-center lg:justify-end lg:gap-x-8 lg:group-even/section:justify-start xl:gap-x-20">
           <div className="flex justify-center">
