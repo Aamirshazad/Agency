@@ -4,46 +4,14 @@ export default function Pagez() {
   return (
     <main className="w-full flex-auto mb-24">
      
-{/* 
-      <div className="mt-24 rounded-4xl bg-neutral-950 py-20 sm:mt-32 sm:py-32 lg:mt-56">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl lg:max-w-none">
-            <div className="flex items-center gap-x-8 opacity-100">
-              <h2 className="text-center font-display text-sm font-semibold tracking-wider text-white sm:text-left">
-                We've worked with hundreds of amazing people
-              </h2>
-              <div className="h-px flex-auto bg-neutral-800"></div>
-            </div>
-            <div>
-              <ul role="list" className="mt-10 grid grid-cols-2 gap-x-8 gap-y-10 lg:grid-cols-4">
-                <li>
-                  <div className="opacity-100">
-                    <img
-                      alt="Phobia"
-                      loading="lazy"
-                      width="184"
-                      height="36"
-                      decoding="async"
-                      src="/_next/static/media/logo-light.ada2d552.svg"
-                      className="color-transparent"
-                    />
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div> */}
 
       <div className="mx-auto max-w-7xl px-6 lg:px-8 mt-24 sm:mt-32 lg:mt-40">
         <div className="mx-auto max-w-2xl lg:max-w-none">
           <div className="max-w-2xl opacity-100">
-            <h2 className="block font-display tracking-tight text-wrap-balance text-4xl font-medium sm:text-5xl text-neutral-950">
-              Harnessing technology for a brighter future
+            <h2 className="block font-bold tracking-tight text-wrap-balance text-4xl  sm:text-5xl text-neutral-950">
+              Our Work
             </h2>
-            <p className="mt-6 text-xl text-neutral-600">
-              We believe technology is the answer to the world's greatest challenges. It's also the cause, so we find ourselves in a bit of a catch-22 situation.
-            </p>
+           
           </div>
         </div>
       </div>

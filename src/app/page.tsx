@@ -7,6 +7,7 @@ import Foter from "./agency/foterlink"
 import Testimonial from "./agency/testnomial"
 import Header from '@/app/agency/header'
 import HeroSection from "./agency/herosection"
+import VisionSection  from "./agency/VisionSection"
 
 
 
@@ -15,6 +16,7 @@ export default function Page(){
         <div>
         <Header/>
         <HeroSection/>
+        <VisionSection/>
         <Pagez/>
 
         <Testimonial/>
