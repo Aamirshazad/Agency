@@ -20,8 +20,8 @@ const Case3 = () => {
                           decoding="async"
                           className="w-full bg-neutral-100 object-cover transition-transform duration-300 hover:scale-95 hover:grayscale-0"
                           sizes="(min-width: 1024px) 41rem, 31rem"
-                          srcSet="https://via.placeholder.com/655x680.png 655w"
-                          src="https://via.placeholder.com/655x680.png"
+                          srcSet="https://images.pexels.com/photos/5716042/pexels-photo-5716042.jpeg?auto=compress&cs=tinysrgb&w=400 655w"
+                          src="https://images.pexels.com/photos/5716042/pexels-photo-5716042.jpeg?auto=compress&cs=tinysrgb&w=400"
                           style={{ color: 'transparent', aspectRatio: '655 / 680' }}
                         />
                       </foreignObject>
@@ -49,7 +49,7 @@ const Case3 = () => {
                 aria-hidden="true"
               ></div>
               <h2 className="mt-2 font-display text-3xl font-medium tracking-tight text-neutral-950 sm:text-4xl">
-                Innovate
+              Deliver
               </h2>
               <div className="mt-6">
                 <div className="space-y-6 text-base text-neutral-600">

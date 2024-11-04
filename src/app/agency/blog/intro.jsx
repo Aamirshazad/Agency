@@ -5,7 +5,7 @@ import React from 'react';
 
 export default function BlogSection() {
   return (
-    <div className="mt-48 ml-10"style={{ opacity: 1, transform: 'none' }}>
+    <div className="pt-28 ml-12"style={{ opacity: 1, transform: 'none' }}>
       <h1>
         <span className="block font-display text-base font-semibold text-neutral-950">Blog</span>
         <span className="sr-only"> - </span>

@@ -8,7 +8,7 @@ import Footer from "../foterlink"
 export default function Page(){
   return(
     <>
-    <Header/>
+    <Header/>\
     <Aboutussection/>
     <Statistics/>
     <CultureSection/>

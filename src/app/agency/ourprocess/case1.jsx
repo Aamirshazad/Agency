@@ -20,8 +20,8 @@ const Case1 = () => {
                           decoding="async"
                           className="w-full bg-neutral-100 object-cover transition-transform duration-300 hover:scale-95 hover:grayscale-0"
                           sizes="(min-width: 1024px) 41rem, 31rem"
-                          srcSet="https://via.placeholder.com/655x680.png 655w"
-                          src="https://via.placeholder.com/655x680.png"
+                          srcSet="https://images.pexels.com/photos/4065885/pexels-photo-4065885.jpeg?auto=compress&cs=tinysrgb&w=400 655w"
+                          src="https://images.pexels.com/photos/4065885/pexels-photo-4065885.jpeg?auto=compress&cs=tinysrgb&w=400"
                           style={{ color: 'transparent', aspectRatio: '655 / 680' }}
                         />
                       </foreignObject>

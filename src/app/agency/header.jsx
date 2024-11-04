@@ -45,7 +45,7 @@ export default function Header() {
                                     ['Blog', '/agency/blog'],
                                     ['About Us', '/agency/aboutus'],
                                   
-                                    ['Contact Us', '/agency/Contact'],
+                                    
                                 ].map(([label, href]) => (
                                     <a
                                         key={label}
@@ -60,10 +60,10 @@ export default function Header() {
 
                             {/* Call to Action Button */}
                             <a
-                                href="https://app.example.com"
-                                className="hidden sm:inline-flex items-center justify-center rounded-full bg-gradient-to-r from-blue-600 to-blue-700 px-6 py-2.5 text-sm font-semibold text-white shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-blue-200 active:scale-95"
+                                href="/agency/Contact"
+                                className="hidden sm:inline-flex items-center justify-center rounded-full hover:text-slate-800 bg-gradient-to-r from-red-600 to-blue-700 px-6 py-2.5 text-sm font-semibold text-white shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-blue-200 active:scale-95"
                             >
-                                Get Started
+                                Contact Us
                             </a>
 
                             {/* Mobile Menu Button */}

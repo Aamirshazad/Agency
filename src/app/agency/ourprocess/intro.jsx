@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function ProcessComponent() {
   return (
-    <div className="mx-auto max-w-7xl  px-6 lg:px-8 pt-20  sm:mt-32 lg:mt-40 ">
+    <div className="mx-auto max-w-7xl  px-6 lg:px-8 pt-24  sm:mt-32 lg:-mt-1  ">
       <div className="mx-auto max-w-2xl lg:max-w-none">
         <div style={{ opacity: 1, transform: 'none' }}>
           <h1>
@@ -14,7 +14,7 @@ export default function ProcessComponent() {
               How we work
             </span>
           </h1>
-          <div className="mt-6 max-w-3xl text-xl text-neutral-600">
+          <div className="mt-6 max-w-3xl  text-base text-neutral-600">
             <p>
               We believe in efficiency and maximizing our resources to provide the best value to our clients. The primary way we do that is by re-using the same five projects we’ve been developing for the past decade.
             </p>

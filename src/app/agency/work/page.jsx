@@ -1,4 +1,4 @@
-import Header2 from "@/app/agency/header"
+import Header from "@/app/agency/header"
 import Testimonial from "../testnomial"
 import WorkSection from "./intro"
 import  OurWorkSection from "./introwork" 
@@ -12,8 +12,7 @@ import Pagez from "./test"
 export default function Page(){
     return(
         <>
-        <Header2/>
-        <Pagez/>
+        <Header/>
         <OurWorkSection/>
         <WorkSection/>
         <ContactSection/>
