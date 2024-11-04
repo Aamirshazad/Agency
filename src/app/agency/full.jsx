@@ -3,18 +3,7 @@ import React from 'react';
 export default function Pagez() {
   return (
     <main className="w-full flex-auto">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8 mt-24 sm:mt-32 md:mt-56">
-        <div className="mx-auto max-w-2xl lg:max-w-none">
-          <div className="max-w-3xl opacity-100">
-            <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 text-wrap-balance sm:text-7xl">
-              Award-winning development studio based in Denmark.
-            </h1>
-            <p className="mt-6 text-xl text-neutral-600">
-              We are a development studio working at the intersection of design and technology. It's a really busy intersection, though — a lot of our staff have been involved in hit and runs.
-            </p>
-          </div>
-        </div>
-      </div>
+     
 
       <div className="mt-24 rounded-4xl bg-neutral-950 py-20 sm:mt-32 sm:py-32 lg:mt-56">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">

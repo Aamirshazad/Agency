@@ -1,18 +1,19 @@
-import Header from "@/app/agency/header"
+import Header2 from "@/app/agency/header"
 import Testimonial from "../testnomial"
 import WorkSection from "./intro"
 import  OurWorkSection from "./introwork" 
 import Foter from "../foterlink"
 import ContactSection from "../about"
-import MyComponent from "./test"
+import Pagez from "./test"
+
 
 
 
 export default function Page(){
     return(
         <>
-        <MyComponent/>
-        <Header/>
+        <Header2/>
+        <Pagez/>
         <OurWorkSection/>
         <WorkSection/>
         <ContactSection/>
