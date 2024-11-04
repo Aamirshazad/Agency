@@ -14,12 +14,12 @@ export default function HeroSection() {
         {/* Main content container */}
         <div className="relative mx-auto -mt-20 max-w-2xl lg:max-w-none p-8 md:p-12 rounded-2xl bg-white/5 backdrop-blur-xl border border-white/10">
           {/* Badge */}
-          <div className="flex justify-center mb-10">
+          {/* <div className="flex justify-center mb-10">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm">
               <Star className="w-7 h-7 text-green-600" />
               <span className="text-lg font-bold text-gray-800">NexusAI </span>
             </div>
-          </div>
+          </div> */}
 
           {/* Content */}
           <div className="relative max-w-3xl mx-auto text-center space-y-14">

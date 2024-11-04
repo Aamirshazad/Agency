@@ -6,7 +6,7 @@ import  About from "./agency/about"
 import Foter from "./agency/foterlink"
 import Testimonial from "./agency/testnomial"
 import Header from '@/app/agency/header'
-import HeroSection from "./herosection"
+import HeroSection from "./agency/herosection"
 
 
 
