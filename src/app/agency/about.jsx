@@ -13,7 +13,7 @@ export default function ContactSection() {
               className="inline-flex rounded-full px-4 py-1.5 text-sm font-semibold transition bg-white text-neutral-950 hover:bg-neutral-200"
               href="/contact"
             >
-              <span className="relative top-px">Say Hej</span>
+              <span className="relative top-px">Say Hey</span>
             </a>
           </div>
           <div className="mt-10 border-t border-white/10 pt-10">
@@ -25,7 +25,7 @@ export default function ContactSection() {
                   <br />
                   1 Carlsberg Gate
                   <br />
-                  1260, København, Denmark
+                  1260, Islamabad, Pakistan
                 </address>
               </li>
               <li>
@@ -34,7 +34,7 @@ export default function ContactSection() {
                   <br />
                   24 Lego Allé
                   <br />
-                  7190, Billund, Denmark
+                  7190, Islamabad, Pakistan
                 </address>
               </li>
             </ul>

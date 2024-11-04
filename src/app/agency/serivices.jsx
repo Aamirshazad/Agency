@@ -62,8 +62,8 @@ export default function Pagez() {
                       width="36"
                       height="36"
                       decoding="async"
-                      src="/_next/static/media/logomark-dark.4d2947be.svg"
-                      className="h-16 w-16 color-transparent"
+                      src="https://images.pexels.com/photos/8566474/pexels-photo-8566474.jpeg?auto=compress&cs=tinysrgb&w=400"
+                      className="h-16 w-16 color-transparent rounded-full"
                     />
                   </a>
                 </h3>
@@ -92,8 +92,8 @@ export default function Pagez() {
                       width="36"
                       height="36"
                       decoding="async"
-                      src="/_next/static/media/logomark-dark.73187f97.svg"
-                      className="h-16 w-16 color-transparent"
+                      src="https://media.istockphoto.com/id/1979518787/photo/ai-technology-businessman-use-laptop-artificial-intelligence-in-the-process-of-predictive.jpg?s=612x612&w=0&k=20&c=9yEoWGksFBE8DPv7pC-4IbtpstPS5yTzDWMuD2-9qXo="
+                      className="h-16 w-16 color-transparent rounded-full"
                     />
                   </a>
                 </h3>
@@ -122,8 +122,8 @@ export default function Pagez() {
                       width="36"
                       height="36"
                       decoding="async"
-                      src="/_next/static/media/logomark-dark.00d7d7b3.svg"
-                      className="h-16 w-16 color-transparent"
+                      src="https://media.istockphoto.com/id/1452604857/photo/businessman-touching-the-brain-working-of-artificial-intelligence-automation-predictive.jpg?b=1&s=612x612&w=0&k=20&c=5LyslY4gssQ99CVUrUB2K75Mx2TFgnkxboAqB38OPUQ="
+                      className="h-16 w-16 color-transparent rounded-full"
                     />
                   </a>
                 </h3>

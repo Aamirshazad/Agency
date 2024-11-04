@@ -1,4 +1,4 @@
-import Pagez from "./agency/full"
+import Pagez from "./agency/serivices"
 import Navigate from "./agency/header"
 import ServicesSection from "./agency/services"
 import Opportunities from "./agency/Opportunities"
