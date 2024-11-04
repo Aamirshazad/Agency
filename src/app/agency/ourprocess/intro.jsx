@@ -2,11 +2,11 @@ import React from 'react';
 
 export default function ProcessComponent() {
   return (
-    <div className="mx-auto max-w-7xl px-6 lg:px-8 mt-24 sm:mt-32 lg:mt-40 ">
+    <div className="mx-auto max-w-7xl  px-6 lg:px-8 pt-20  sm:mt-32 lg:mt-40 ">
       <div className="mx-auto max-w-2xl lg:max-w-none">
         <div style={{ opacity: 1, transform: 'none' }}>
           <h1>
-            <span className="block font-display text-base font-semibold text-neutral-950">
+            <span className="block font-display  text-base font-semibold text-neutral-950">
               Our process
             </span>
             <span className="sr-only"> - </span>

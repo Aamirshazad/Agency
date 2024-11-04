@@ -1,4 +1,5 @@
 "use client"
+
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 
@@ -27,21 +28,24 @@ export default function Header() {
                             href="/" 
                             className="group/logo relative flex items-center transition-transform duration-300 hover:scale-105"
                         >
-                            <span className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-blue-600 bg-clip-text text-transparent">
-                                Nexus<span className="text-blue-600">AI</span>
+                            <span className="text-2xl font-bold bg-gradient-to-r from-red-500 to-blue-600 bg-clip-text text-transparent">
+                                Nexus<span className=" bg-gradient-to-r from-red-500 to-blue-400  bg-clip-text  text-transparent ">AI</span>
                             </span>
                         </a>
 
                         <div className="flex items-center gap-x-8">
                             {/* Desktop Navigation */}
-                            <nav className="hidden gap-x-8 text-sm font-semibold leading-6 lg:flex">
+                            <nav className="hidden gap-x-5  text-sm font-semibold leading-6 lg:flex">
                                 {[
                                     ['Home', '/'],
-                                    ['About Us', '/about'],
-                                    ['Services', '/services'],
-                                    ['Portfolio', '/portfolio'],
-                                    ['Blog', '/blog'],
-                                    ['Contact Us', '/contact'],
+                                    
+                                    ['Services', '/agency/services'],
+                                    ['Our Process', '/agency/ourprocess'],
+                                    ['Our work', '/agency/work'],
+                                    ['Blog', '/agency/blog'],
+                                    ['About Us', '/agency/aboutus'],
+                                  
+                                    ['Contact Us', '/agency/Contact'],
                                 ].map(([label, href]) => (
                                     <a
                                         key={label}
@@ -101,14 +105,14 @@ export default function Header() {
                                     {label}
                                 </a>
                             ))}
-                            <div className="px-3 py-3">
+                            {/* <div className="px-3 py-3">
                                 <a
                                     href="https://app.example.com"
                                     className="block w-full rounded-full bg-gradient-to-r from-blue-600 to-blue-700 px-4 py-2.5 text-center text-sm font-semibold text-white shadow-lg hover:shadow-blue-200 active:scale-95 transition-all duration-300"
                                 >
                                     Get Started
                                 </a>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

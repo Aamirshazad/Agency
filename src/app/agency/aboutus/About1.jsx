@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function AboutUsSection() {
   return (
-    <div className="mx-auto max-w-7xl px-6  lg:px-8 mt-40 sm:mt-32 lg:mt-40">
+    <div className="mx-auto max-w-7xl px-6  lg:px-8 sm:mt-32 lg:mt-40">
       <div className="mx-auto max-w-2xl lg:max-w-none">
         <div className="max-w-2xl" style={{ opacity: 1, transform: 'none' }}>
           <h2>

@@ -1,79 +1,122 @@
-import React from 'react';
-import { ArrowRight, Star } from 'lucide-react';
+"use client"
 
-export default function HeroSection() {
-  return (
-    <main className="w-full flex-auto bg-gradient-to-b from-slate-900 to-slate-800">
-      <div className="relative mx-auto max-w-7xl px-6 lg:px-8 pt-24 sm:pt-32 md:pt-40 pb-24">
-        {/* Decorative elements */}
-        <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute -left-4 top-24 h-72 w-72 rounded-full bg-blue-500 opacity-20 blur-3xl"></div>
-          <div className="absolute -right-4 bottom-24 h-72 w-72 rounded-full bg-purple-500 opacity-20 blur-3xl"></div>
-        </div>
+import React, { useState, useEffect } from 'react';
+import { Menu, X } from 'lucide-react';
 
-        {/* Main content container */}
-        <div className="relative mx-auto max-w-2xl lg:max-w-none p-8 md:p-12 rounded-2xl bg-white/5 backdrop-blur-xl border border-white/10">
-          {/* Badge */}
-          <div className="flex justify-center mb-8">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm">
-              <Star className="w-4 h-4 text-yellow-400" />
-              <span className="text-sm font-medium text-white">Award-winning Studio</span>
+export default function Header() {
+    const [isScrolled, setIsScrolled] = useState(false);
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            setIsScrolled(window.scrollY > 20);
+        };
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
+    return (
+        <header className={`fixed left-0 right-0  z-50 pt-6 transition-all duration-900 ${
+            isScrolled ? 'bg-white/90 backdrop-blur-lg shadow-lg rounded-t-3xl' : 'bg-transparent'
+        }`}>
+            <div className="mx-auto max-w-7xl px-6 lg:px-8">
+                <div className="mx-auto max-w-2xl lg:max-w-none">
+                    <div className="flex items-center justify-between">
+                        {/* Logo Section */}
+                        <a 
+                            aria-label="Home" 
+                            href="/" 
+                            className="group/logo relative flex items-center transition-transform duration-300 hover:scale-105"
+                        >
+                            <span className="text-3xl font-bold bg-gradient-to-r from-red-400 to-red-600 bg-clip-text text-transparent">
+                                Nexus<span className="text-blue-600">AI</span>
+                            </span>
+                        </a>
+
+                        <div className="flex items-center gap-x-8">
+                            {/* Desktop Navigation */}
+                            <nav className="hidden gap-x-5  text-sm font-semibold leading-6 lg:flex">
+                                {[
+                                    ['Home', '/'],
+                                    
+                                    ['Services', '/agency/services'],
+                                    ['Our Process', '/agency/ourprocess'],
+                                    ['Our work', '/agency/work'],
+                                    ['Blog', '/agency/blog'],
+                                    ['About Us', '/agency/aboutus'],
+                                  
+                                    ['Contact Us', '/agency/Contact'],
+                                ].map(([label, href]) => (
+                                    <a
+                                        key={label}
+                                        href={href}
+                                        className="relative text-gray-700 transition-colors duration-300 hover:text-blue-600 group"
+                                    >
+                                        {label}
+                                        <span className="absolute inset-x-0 -bottom-2 h-0.5 bg-blue-600 transform scale-x-0 transition-transform group-hover:scale-x-100" />
+                                    </a>
+                                ))}
+                            </nav>
+
+                            {/* Call to Action Button */}
+                            <a
+                                href="https://app.example.com"
+                                className="hidden sm:inline-flex items-center justify-center rounded-full bg-gradient-to-r from-blue-600 to-blue-700 px-6 py-2.5 text-sm font-semibold text-white shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-blue-200 active:scale-95"
+                            >
+                                Get Started
+                            </a>
+
+                            {/* Mobile Menu Button */}
+                            <button
+                                type="button"
+                                onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                                className="inline-flex items-center justify-center rounded-lg p-2 text-gray-700 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-600 lg:hidden"
+                            >
+                                {isMobileMenuOpen ? (
+                                    <X className="h-6 w-6" />
+                                ) : (
+                                    <Menu className="h-6 w-6" />
+                                )}
+                            </button>
+                        </div>
+                    </div>
+
+                    {/* Mobile Navigation Menu */}
+                    <div
+                        className={`lg:hidden transition-all duration-300 ease-in-out ${
+                            isMobileMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
+                        } overflow-hidden`}
+                    >
+                        <div className="space-y-1 px-2 pb-3 pt-2">
+                            {[
+                                ['Home', '/'],
+                                ['About Us', '/about'],
+                                ['Services', '/services'],
+                                ['Portfolio', '/portfolio'],
+                                ['Blog', '/blog'],
+                                ['Contact Us', '/contact'],
+                            ].map(([label, href]) => (
+                                <a
+                                    key={label}
+                                    href={href}
+                                    className="block rounded-lg px-3 py-2 text-base font-medium text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200"
+                                    onClick={() => setIsMobileMenuOpen(false)}
+                                >
+                                    {label}
+                                </a>
+                            ))}
+                            {/* <div className="px-3 py-3">
+                                <a
+                                    href="https://app.example.com"
+                                    className="block w-full rounded-full bg-gradient-to-r from-blue-600 to-blue-700 px-4 py-2.5 text-center text-sm font-semibold text-white shadow-lg hover:shadow-blue-200 active:scale-95 transition-all duration-300"
+                                >
+                                    Get Started
+                                </a>
+                            </div> */}
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-
-          {/* Content */}
-          <div className="relative max-w-3xl mx-auto text-center space-y-8">
-            <h1 className="font-display text-4xl sm:text-6xl md:text-7xl font-bold tracking-tight text-white leading-tight">
-              <span className="inline-block animate-fadeIn">
-                Development studio
-              </span>
-              <br />
-              <span className="inline-block bg-gradient-to-r from-blue-400 to-purple-400 text-transparent bg-clip-text animate-fadeIn animation-delay-100">
-                based in Denmark
-              </span>
-            </h1>
-
-            <p className="text-lg md:text-xl text-neutral-300 max-w-2xl mx-auto animate-fadeIn animation-delay-200">
-              We are a development studio working at the intersection of design and technology. 
-              Creating innovative solutions that push the boundaries of what's possible.
-            </p>
-
-            {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-12 animate-fadeIn animation-delay-300">
-              <a
-                href="#"
-                className="group inline-flex items-center gap-2 px-8 py-4 bg-white text-slate-900 rounded-full font-semibold transition-all duration-300 hover:bg-blue-50 hover:scale-105 shadow-lg shadow-white/10"
-              >
-                Get Started
-                <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-              </a>
-              
-              <a
-                href="#"
-                className="inline-flex items-center gap-2 px-8 py-4 text-white border border-white/20 rounded-full font-semibold transition-all duration-300 hover:bg-white/10 hover:scale-105"
-              >
-                View Our Work
-              </a>
-            </div>
-
-            {/* Stats */}
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-16 pt-8 border-t border-white/10">
-              <div className="text-center">
-                <div className="text-3xl font-bold text-white">100+</div>
-                <div className="text-sm text-neutral-400 mt-1">Projects Completed</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-white">50+</div>
-                <div className="text-sm text-neutral-400 mt-1">Happy Clients</div>
-              </div>
-              <div className="text-center md:col-span-1 col-span-2">
-                <div className="text-3xl font-bold text-white">15+</div>
-                <div className="text-sm text-neutral-400 mt-1">Team Members</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
-  );
+        </header>
+    );
 }

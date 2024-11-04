@@ -1,6 +1,6 @@
 export default function Intro(){
     return(
-        <div className="mt-48 ml-16">
+        <div className="pt-24 ml-16">
             <div style={{ opacity: 1, transform: 'none' }}>
     <h1>
         <span className="block font-display text-base font-semibold text-neutral-950">Contact us</span>

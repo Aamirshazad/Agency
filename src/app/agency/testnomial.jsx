@@ -24,7 +24,7 @@ const testimonials = [
     text: "The level of creativity and technical expertise they bring to each project is exceptional. Highly recommended!",
     author: "Emma Williams",
     role: "CEO",
-    companyLogo: "/api/placeholder/184/36",
+    // companyLogo: "/api/placeholder/184/36",
   }
 ];
 
@@ -32,28 +32,28 @@ export default function Testimonial() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <div className="relative overflow-hidden bg-gradient-to-br from-gray-900 to-gray-800 py-24">
+    <div className="relative overflow-hidden rounded-3xl w-4/5 place-items-center ml-24  bg-gradient-to-br from-gray-600 to-gray-800 py-24">
       {/* Background decoration */}
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px)] bg-[size:100px] opacity-20" />
         <div className="absolute inset-0 bg-[linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:100px] opacity-20" />
       </div>
 
-      <div className="relative mx-auto max-w-7xl px-6">
+      <div className="relative mx-auto max-w-5xl ">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
+          transition={{ duration: 0.10 }}
           className="relative"
         >
           {/* Main testimonial content */}
-          <div className="mx-auto max-w-4xl">
+          <div className="mx-auto max-w-3xl">
             <motion.div
               key={activeIndex}
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -20 }}
-              transition={{ duration: 0.5 }}
+              transition={{ duration: 0.10 }}
               className="relative"
             >
               <Quote className="absolute -top-8 -left-4 h-16 w-16 text-blue-500/20" />
@@ -63,9 +63,9 @@ export default function Testimonial() {
                   {testimonials[activeIndex].text}
                 </p>
                 
-                <div className="mt-10 flex flex-col items-center">
+                <div className="mt-5 flex flex-col items-center">
                   <div className="h-12 w-12 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 p-[2px]">
-                    <div className="h-full w-full rounded-full bg-gray-900" />
+                    <div className="h-full w-full rounded-full bg-slate-600" />
                   </div>
                   <div className="mt-4 text-center">
                     <p className="text-lg font-semibold text-white">
@@ -75,11 +75,11 @@ export default function Testimonial() {
                       {testimonials[activeIndex].role}
                     </p>
                   </div>
-                  <img
+                  {/* <img
                     alt="Company logo"
                     className="mt-6 h-8 w-auto opacity-50 hover:opacity-100 transition-opacity duration-300"
                     src={testimonials[activeIndex].companyLogo}
-                  />
+                  /> */}
                 </div>
               </blockquote>
             </motion.div>

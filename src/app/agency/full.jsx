@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function Pagez() {
   return (
-    <main className="w-full flex-auto">
+    <main className="w-full flex-auto mb-24">
      
-
+{/* 
       <div className="mt-24 rounded-4xl bg-neutral-950 py-20 sm:mt-32 sm:py-32 lg:mt-56">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:max-w-none">
@@ -33,7 +33,7 @@ export default function Pagez() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="mx-auto max-w-7xl px-6 lg:px-8 mt-24 sm:mt-32 lg:mt-40">
         <div className="mx-auto max-w-2xl lg:max-w-none">

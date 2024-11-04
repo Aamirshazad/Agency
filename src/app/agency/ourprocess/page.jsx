@@ -12,12 +12,13 @@ import Footer from "../foterlink";
 export default function Page(){
     return(
         <>
+        <Header/>
         <ProcessComponent/>
         <Case1/>
         <Case2/>
         <Case3/>
         <OurValues/>
-        <Header/>
+        
         <Footer/>
         </>
     )
