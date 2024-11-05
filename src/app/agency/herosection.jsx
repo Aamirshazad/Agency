@@ -8,9 +8,9 @@ export default function HeroSection() {
 
   // Array of background images
   const bgImages = [
-    'bg-[url("https://images.pexels.com/photos/1097456/pexels-photo-1097456.jpeg?auto=compress&cs=tinysrgb&w=400")]',
-    'bg-[url("https://images.pexels.com/photos/1097456/pexels-photo-1097456.jpeg?auto=compress&cs=tinysrgb&w=400")]',
-    'bg-[url("https://images.pexels.com/photos/1097456/pexels-photo-1097456.jpeg?auto=compress&cs=tinysrgb&w=400")]',
+    'bg-[url("https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=400")]',
+    'bg-[url("https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=400")]',
+    'bg-[url("https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=400")]',
   ];
 
   // Cycle through background images
@@ -31,18 +31,18 @@ export default function HeroSection() {
         </div>
 
         {/* Main Content Container */}
-        <div className="relative mx-auto max-w-2xl lg:max-w-none p-8 md:p-12 rounded-2xl bg-white/5 backdrop-blur-xl border border-white/10">
+        <div className="relative mx-auto max-w-2xl lg:max-w-none p-8 md:p-12 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10">
           {/* Title and Subtitle */}
           <div className="relative max-w-3xl mx-auto text-center space-y-14 -mt-7">
             <h1 className="font-display text-3xl sm:text-6xl md:text-7xl p-1 font-bold tracking-losely bg-gradient-to-r from-red-800 to-blue-700 text-transparent bg-clip-text leading-tight">
               <span className="inline-block animate-out hover:animate-out ">AI</span>
               <br />
-              <span className="inline-block bg-gradient-to-r from-red-800 tracking-tightly to-white  text-transparent bg-clip-text animate-slide-up">
+              <span className="inline-block bg-gradient-to-r from-red-700 tracking-tightly to-blue-700  text-transparent bg-clip-text animate-slide-up">
                 Automation Agency
               </span>
             </h1>
 
-            <p className="text-lg md:text-xl text-neutral-300 max-w-2xl mx-auto animate-fade-in delay-500">
+            <p className="text-lg md:text-xl text-white max-w-2xl mx-auto animate-fade-in delay-500">
               We are a leading AI development agency merging design with cutting-edge technology to create innovative solutions.
             </p>
 

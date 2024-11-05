@@ -8,9 +8,9 @@ export default function Pagez() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8 mt-24 sm:mt-32 lg:mt-40">
         <div className="mx-auto max-w-2xl lg:max-w-none">
           <div className="max-w-2xl opacity-100">
-            <h2 className="block font-bold tracking-tight text-wrap-balance text-4xl  sm:text-5xl text-neutral-950">
+            <a href="/agency/services" className="block font-bold text-blue-300 hover:text-blue-700 tracking-tight text-wrap-balance text-4xl  sm:text-5xl ">
               Our Work
-            </h2>
+            </a>
            
           </div>
         </div>

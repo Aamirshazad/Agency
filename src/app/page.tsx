@@ -8,6 +8,7 @@ import Testimonial from "./agency/testnomial"
 import Header from '@/app/agency/header'
 import HeroSection from "./agency/herosection"
 import VisionSection  from "./agency/VisionSection"
+import HeroSectionWithServices from "./test"
 
 
 
@@ -16,11 +17,13 @@ export default function Page(){
         <div>
         <Header/>
         <HeroSection/>
+        <HeroSectionWithServices/>
         <VisionSection/>
         <Pagez/>
 
         <Testimonial/>
         <Opportunities/>
+        <ServicesSection/>
       
         <ServicesSection/>
         <About/>
