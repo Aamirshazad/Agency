@@ -29,7 +29,7 @@ export default function RootLayout({
     <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
     </head>
       <body
-        className="bg-gradient-to-tr from-blue-950 from-20% via-blue-950 via-70% to-red-900 to-160%  ... text-white"
+        className="bg-gradient-to-r from-blue-950 from-20% via-blue-950 via-70% to-red-900 to-160%  screen h-full... text-white"
         
       >
         {children}
