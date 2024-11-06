@@ -6,18 +6,18 @@ export default function AboutUsSection() {
       <div className="mx-auto max-w-2xl lg:max-w-none">
         <div className="max-w-2xl" style={{ opacity: 1, transform: 'none' }}>
           <h2>
-            <span className="mb-6 block font-display text-base font-semibold text-neutral-950">About Us</span>
+            <span className="mb-6 block font-display text-base font-semibold text-purple-800">About Us</span>
             <span className="sr-only"> - </span>
-            <span className="block font-display tracking-tight text-wrap-balance text-4xl font-semibold sm:text-5xl text-neutral-950">
+            <span className="block font-display tracking-tight text-wrap-balance text-4xl font-semibold sm:text-5xl ">
               Our strength is collaboration
             </span>
           </h2>
-          <div className="mt-6 text-xl text-neutral-600">
+          <div className="mt-6 text-xl text-neutral-300">
             <p>
               We believe that our strength lies in our collaborative approach, which puts our clients at the center of everything we do.
             </p>
           </div>
-          <div className="mt-10 space-y-6 text-base text-neutral-600">
+          <div className="mt-10 space-y-6 text-base text-neutral-300">
             <p>
               Studio was started by three friends who noticed that developer studios were charging clients double what an in-house team would cost. Since the beginning, we have been committed to doing things differently by charging triple instead.
             </p>

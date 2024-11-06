@@ -8,28 +8,28 @@ export default function Statistics() {
           <dl className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:auto-cols-fr lg:grid-flow-col lg:grid-cols-none">
             {/* Statistic 1 */}
             <div
-              className="flex flex-col-reverse pl-8 relative before:absolute after:absolute before:bg-neutral-950 after:bg-neutral-950/10 before:left-0 before:top-0 before:h-6 before:w-px after:bottom-0 after:left-0 after:top-8 after:w-px"
+              className="flex flex-col-reverse pl-8 relative before:absolute after:absolute before:bg-red-500 after:bg-green-500 before:left-0 before:top-0 before:h-6 before:w-px after:bottom-0 after:left-0 after:top-8 after:w-px"
               style={{ opacity: 1, transform: 'none' }}
             >
-              <dt className="mt-2 text-base text-neutral-600">Underpaid employees</dt>
-              <dd className="font-display text-3xl font-semibold text-neutral-950 sm:text-4xl">20 </dd>
+              <dt className="mt-2 text-base   ">Employees</dt>
+              <dd className="font-display text-3xl font-semibold text-neutral-950 sm:text-4xl">15 </dd>
             </div>
 
             {/* Statistic 2 */}
             <div
-              className="flex flex-col-reverse pl-8 relative before:absolute after:absolute before:bg-neutral-950 after:bg-neutral-950/10 before:left-0 before:top-0 before:h-6 before:w-px after:bottom-0 after:left-0 after:top-8 after:w-px"
+              className="flex flex-col-reverse pl-8 relative before:absolute after:absolute before:bg-red-500 after:bg-green-500 before:left-0 before:top-0 before:h-6 before:w-px after:bottom-0 after:left-0 after:top-8 after:w-px"
               style={{ opacity: 1, transform: 'none' }}
             >
-              <dt className="mt-2 text-base text-neutral-600">Placated clients</dt>
+              <dt className="mt-2 text-base ">Placated clients</dt>
               <dd className="font-display text-3xl font-semibold text-neutral-950 sm:text-4xl">40+</dd>
             </div>
 
             {/* Statistic 3 */}
             <div
-              className="flex flex-col-reverse pl-8 relative before:absolute after:absolute before:bg-neutral-950 after:bg-neutral-950/10 before:left-0 before:top-0 before:h-6 before:w-px after:bottom-0 after:left-0 after:top-8 after:w-px"
+              className="flex flex-col-reverse pl-8 relative before:absolute after:absolute before:bg-red-500 after:bg-green-500 before:left-0 before:top-0 before:h-6 before:w-px after:bottom-0 after:left-0 after:top-8 after:w-px"
               style={{ opacity: 1, transform: 'none' }}
             >
-              <dt className="mt-2 text-base text-neutral-600">Projects</dt>
+              <dt className="mt-2 text-base ">Projects</dt>
               <dd className="font-display text-3xl font-semibold text-neutral-950 sm:text-4xl">50+</dd>
             </div>
           </dl>

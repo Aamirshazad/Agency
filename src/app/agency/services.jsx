@@ -5,9 +5,9 @@ export default function ServicesSection() {
     <div className="mx-auto max-w-7xl px-6 lg:px-8 mt-16">
       <div className="mx-auto max-w-2xl lg:max-w-none">
         <div className="lg:flex lg:items-center lg:justify-end">
-        <div className="flex justify-center">
-            <div className="w-[32rem] flex-none lg:w-[40rem]" style={{  transform: 'none' }}>
-              <div className="justify-center lg:justify-end lg:group-even/section:justify-start relative flex aspect-[719/680] w-full grayscale transition-all duration-300">
+          <div className="flex justify-center">
+            <div className="w-[32rem] flex-none lg:w-[40rem]" style={{ transform: 'none' }}>
+              <div className="justify-center lg:justify-end lg:group-even/section:justify-start relative flex aspect-[719/680] w-full transition-all duration-300">
                 <svg viewBox="0 0 655 680" fill="none" className="h-full">
                   <g clipPath="url(#clip)">
                     <g className="origin-center scale-100 transition duration-500 motion-safe:group-hover:scale-105">
@@ -18,11 +18,11 @@ export default function ServicesSection() {
                           width="2400"
                           height="1800"
                           decoding="async"
-                          className="w-full bg-neutral-300 object-cover transition-transform duration-300 hover:scale-95 hover:grayscale-0"
+                          className="w-full bg-neutral-300 object-cover transition-transform duration-300 hover:scale-95"
                           sizes="(min-width: 1024px) 40rem, 32rem"
                           srcSet="https://images.pexels.com/photos/968631/pexels-photo-968631.jpeg?auto=compress&cs=tinysrgb&w=400 655w"
                           src="https://images.pexels.com/photos/968631/pexels-photo-968631.jpeg?auto=compress&cs=tinysrgb&w=400"
-                          style={{ color: 'transparent', aspectRatio: '655 / 680' }}
+                          style={{ aspectRatio: '655 / 680' }}
                         />
                       </foreignObject>
                     </g>

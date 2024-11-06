@@ -17,7 +17,7 @@ export default function Header() {
 
     return (
         <header className={`fixed left-0 right-0  z-50 pt-6 transition-all duration-300 ${
-            isScrolled ? 'bg-white/90 backdrop-blur-lg shadow-lg rounded-t-3xl' : 'bg-transparent'
+            isScrolled ? 'bg-transparent backdrop-blur-lg  rounded-t-3xl' : 'bg-transparent'
         }`}>
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl lg:max-w-none">
@@ -25,17 +25,17 @@ export default function Header() {
                         {/* Logo Section */}
                         <a 
                             aria-label="Home" 
-                            href="/" 
+                            href="" 
                             className="group/logo relative flex items-center transition-transform duration-300 hover:scale-105"
                         >
                             <span className="text-2xl font-bold bg-gradient-to-r from-red-500 to-blue-600 bg-clip-text text-transparent">
-                                Nexus<span className=" bg-gradient-to-r from-red-500 to-blue-400  bg-clip-text  text-transparent ">AI</span>
+                                Cortex<span className=" bg-gradient-to-r from-red-500 to-blue-400  bg-clip-text  text-transparent ">AI</span>
                             </span>
                         </a>
 
                         <div className="flex items-center gap-x-8">
                             {/* Desktop Navigation */}
-                            <nav className="hidden gap-x-5  text-sm font-semibold leading-6 lg:flex">
+                            <nav className="hidden bg-purple-800 p-2 rounded-md gap-x-5  text-sm font-semibold leading-6 lg:flex">
                                 {[
                                     ['Home', '/'],
                                     
@@ -50,7 +50,7 @@ export default function Header() {
                                     <a
                                         key={label}
                                         href={href}
-                                        className="relative text-gray-700 transition-colors duration-300 hover:text-blue-600 group"
+                                        className="relative  text-white-600 transition-colors duration-300 hover:text-blue-600 hover:shadow-lg  group"
                                     >
                                         {label}
                                         <span className="absolute inset-x-0 -bottom-2 h-0.5 bg-blue-600 transform scale-x-0 transition-transform group-hover:scale-x-100" />
@@ -61,7 +61,7 @@ export default function Header() {
                             {/* Call to Action Button */}
                             <a
                                 href="/agency/Contact"
-                                className="hidden sm:inline-flex items-center justify-center rounded-full hover:text-slate-800 bg-gradient-to-r from-red-600 to-blue-700 px-6 py-2.5 text-sm font-semibold text-white shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-blue-200 active:scale-95"
+                                className="hidden sm:inline-flex items-center justify-center rounded-full hover:text-slate-800 bg-gradient-to-r from-blue-600 to-red-700 px-6 py-2.5 text-sm font-semibold text-white shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-blue-200 active:scale-95"
                             >
                                 Contact Us
                             </a>
@@ -70,7 +70,7 @@ export default function Header() {
                             <button
                                 type="button"
                                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                                className="inline-flex items-center justify-center rounded-lg p-2 text-gray-700 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-600 lg:hidden"
+                                className="inline-flex items-center justify-right rounded-lg p-2 text-gray-700 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-600 lg:hidden"
                             >
                                 {isMobileMenuOpen ? (
                                     <X className="h-6 w-6" />

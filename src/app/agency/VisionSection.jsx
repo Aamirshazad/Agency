@@ -6,7 +6,7 @@ export default function VisionSection() {
       <div className="absolute inset-0 overflow-hidden">
         {/* Background decorative elements */}
         <div className="absolute -left-8 top-16 h-64  bg-red-600 opacity-20 rounded-full blur-2xl animate-pulse"></div>
-        <div className="absolute -right-8 bottom-16 h-64 w-64 bg-blue-500 opacity-20 rounded-full blur-2xl animate-pulse"></div>
+        <div className="absolute -right-8 bottom-16 h-64 w-64 bg-blue-300 opacity-20 rounded-full blur-2xl animate-none "></div>
       </div>
 
       <div className="relative max-w-5xl mx-auto px-6 lg:px-8 text-center space-y-8">

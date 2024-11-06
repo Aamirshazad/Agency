@@ -10,15 +10,15 @@ export default function Footer() {
               <ul role="list" className="grid grid-cols-2 gap-8 sm:grid-cols-3">
                 {/* Work Section */}
                 <li>
-                  <div className="font-display text-sm font-semibold tracking-wider text-neutral-950">Work</div>
-                  <ul role="list" className="mt-4 text-sm text-neutral-700">
+                  <div className="font-display text-sm font-semibold tracking-wider ">Work</div>
+                  <ul role="list" className="mt-4 text-sm text-neutral-400">
                     <li className="mt-4">
                       <a className="transition hover:text-neutral-950" href="/work/family-fund">
                         FamilyFund
                       </a>
                     </li>
                     <li className="mt-4">
-                      <a className="transition hover:text-neutral-950" href="/work/unseal">
+                      <a className="transition hover:text-neutral-450" href="/work/unseal">
                         Unseal
                       </a>
                     </li>
@@ -28,7 +28,7 @@ export default function Footer() {
                       </a>
                     </li>
                     <li className="mt-4">
-                      <a className="transition hover:text-neutral-950" href="/work">
+                      <a className="transition hover:text-neutral-450" href="/work">
                         See all <span aria-hidden="true">→</span>
                       </a>
                     </li>
@@ -37,8 +37,8 @@ export default function Footer() {
 
                 {/* Company Section */}
                 <li>
-                  <div className="font-display text-sm font-semibold tracking-wider text-neutral-950">Company</div>
-                  <ul role="list" className="mt-4 text-sm text-neutral-700">
+                  <div className="font-display text-sm font-semibold tracking-wider ">Company</div>
+                  <ul role="list" className="mt-4 text-sm text-neutral-400">
                     <li className="mt-4">
                       <a className="transition hover:text-neutral-950" href="/about">
                         About
@@ -64,8 +64,8 @@ export default function Footer() {
 
                 {/* Connect Section */}
                 <li>
-                  <div className="font-display text-sm font-semibold tracking-wider text-neutral-950">Connect</div>
-                  <ul role="list" className="mt-4 text-sm text-neutral-700">
+                  <div className="font-display text-sm font-semibold tracking-wider ">Connect</div>
+                  <ul role="list" className="mt-4 text-sm text-neutral-400">
                     <li className="mt-4">
                       <a className="transition hover:text-neutral-950" href="https://facebook.com">
                         Facebook
@@ -94,10 +94,10 @@ export default function Footer() {
             {/* Newsletter Section */}
             <div className="flex lg:justify-end">
               <form className="max-w-sm">
-                <h2 className="font-display text-sm font-semibold tracking-wider text-neutral-950">
+                <h2 className="font-display text-sm font-semibold tracking-wider ">
                   Sign up for our newsletter
                 </h2>
-                <p className="mt-4 text-sm text-neutral-700">
+                <p className="mt-4 text-sm text-neutral-400">
                   Subscribe to get the latest design news, articles, resources and inspiration.
                 </p>
                 <div className="relative mt-6">
@@ -106,7 +106,7 @@ export default function Footer() {
                     placeholder="Email address"
                     autoComplete="email"
                     aria-label="Email address"
-                    className="block w-full rounded-2xl border border-neutral-300 bg-transparent py-4 pl-6 pr-20 text-base/6 text-neutral-950 ring-4 ring-transparent transition placeholder:text-neutral-500 focus:border-neutral-950 focus:outline-none focus:ring-neutral-950/5"
+                    className="block w-full rounded-2xl border border-neutral-200 bg-transparent py-4 pl-6 pr-20 text-base/6 text-neutral-950 ring-4 ring-transparent transition placeholder:text-neutral-500 focus:border-neutral-950 focus:outline-none focus:ring-neutral-950/5"
                   />
                   <div className="absolute inset-y-1 right-1 flex justify-end">
                     <button
@@ -155,7 +155,7 @@ export default function Footer() {
                 ></path>
               </svg>
             </a>
-            <p className="text-sm text-neutral-700">© Studio Agency Inc. 2024</p>
+            <p className="text-sm text-neutral-700">© CortexAI Agency Inc. 2024</p>
           </div>
         </div>
       </div>

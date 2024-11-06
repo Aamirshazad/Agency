@@ -17,7 +17,7 @@ export default function Page(){
         <div>
         <Header/>
         <HeroSection/>
-        <HeroSectionWithServices/>
+        
         <VisionSection/>
         <Pagez/>
 

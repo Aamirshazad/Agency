@@ -43,7 +43,7 @@ export default function Pagez() {
                 <p className="mt-6 font-display text-2xl font-semibold text-neutral-950">
                   Skip the bank, borrow from those you trust
                 </p>
-                <p className="mt-4 text-base text-neutral-600">
+                <p className="mt-4 text-base text-">
                   FamilyFund is a crowdfunding platform for friends and family, allowing users to take personal loans from their network without a traditional financial institution.
                 </p>
               </article>
@@ -51,7 +51,7 @@ export default function Pagez() {
 
             {/* Case Study 2 */}
             <div className="flex opacity-100">
-              <article className="relative flex w-full flex-col rounded-3xl p-6 ring-1 ring-neutral-950/5 transition hover:bg-neutral-50 sm:p-8">
+              <article className="relative flex w-full flex-col rounded-3xl  p-6 ring-1 ring-neutral-950/5 transition hover:bg-neutral-50 sm:p-8">
                 <h3>
                   <a href="/work/unseal">
                     <img
@@ -61,7 +61,7 @@ export default function Pagez() {
                       height="36"
                       decoding="async"
                       src="https://media.istockphoto.com/id/1979518787/photo/ai-technology-businessman-use-laptop-artificial-intelligence-in-the-process-of-predictive.jpg?s=612x612&w=0&k=20&c=9yEoWGksFBE8DPv7pC-4IbtpstPS5yTzDWMuD2-9qXo="
-                      className="h-16 w-16 color-transparent rounded-full"
+                      className="h-16 w-16 color-transparent rounded-full "
                     />
                   </a>
                 </h3>
@@ -91,7 +91,7 @@ export default function Pagez() {
                       height="36"
                       decoding="async"
                       src="https://media.istockphoto.com/id/1452604857/photo/businessman-touching-the-brain-working-of-artificial-intelligence-automation-predictive.jpg?b=1&s=612x612&w=0&k=20&c=5LyslY4gssQ99CVUrUB2K75Mx2TFgnkxboAqB38OPUQ="
-                      className="h-16 w-16 color-transparent rounded-full"
+                      className="h-16 w-16 color-transparent rounded-full "
                     />
                   </a>
                 </h3>
