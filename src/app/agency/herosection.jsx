@@ -1,87 +1,73 @@
-"use client"
+const links = [
+  { name: 'Open roles', href: '#' },
+  { name: 'Internship program', href: '#' },
+  { name: 'Our values', href: '#' },
+  { name: 'Meet our leadership', href: '#' },
+]
+const stats = [
+  { name: 'Offices worldwide', value: '12' },
+  { name: 'Full-time colleagues', value: '300+' },
+  { name: 'Hours per week', value: '40' },
+  { name: 'Paid time off', value: 'Unlimited' },
+]
 
-import React, { useState, useEffect } from 'react';
-import { ArrowRight } from 'lucide-react';
-
-export default function HeroSection() {
-  const [bgImage, setBgImage] = useState(0);
-
-  // Array of background images
-  const bgImages = [
-    'bg-[url("https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=400")]',
-    'bg-[url("https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=400")]',
-    'bg-[url("https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=400")]',
-  ];
-
-  // Cycle through background images
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setBgImage((prev) => (prev + 1) % bgImages.length);
-    }, 5000); // change every 5 seconds
-    return () => clearInterval(interval);
-  }, []);
-
+export default function Example() {
   return (
-    <main className={`w-full flex-auto transition-all duration-1000 ${bgImages[bgImage]} bg-cover bg-center`}>
-      <div className="relative mx-auto max-w-7xl px-6 lg:px-8 pt-10 sm:pt-32 md:pt-16 pb-16 rounded-lg ">
-        {/* Decorative Gradients */}
-        <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute -left-4 top-24 h-72 w-72 rounded-full opacity-20 blur-2xl animate-pulse"></div>
-          <div className="absolute -right-4 bottom-24 h-72 w-72 rounded-full bg-slate-900 opacity-20 blur-xl animate-pulse"></div>
+    <div className="relative isolate overflow-hidden bg-gray-600 mx-6 mt-4 rounded-3xl py-24 sm:py-32">
+      <img
+        alt=""
+        src="https://images.pexels.com/photos/796602/pexels-photo-796602.jpeg?auto=compress&cs=tinysrgb&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply"
+        className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
+      />
+      <div
+        aria-hidden="true"
+        className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
+      >
+        <div
+          style={{
+            clipPath:
+              'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
+          }}
+          className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-blue-0 fr80om-20% via-blue-700 via-70% to-red-700 to-160% opacity-40"
+        />
+      </div>
+      <div
+        aria-hidden="true"
+        className="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu"
+      >
+        <div
+          style={{
+            clipPath:
+              'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
+          }}
+          className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20"
+        />
+      </div>
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto max-w-2xl lg:mx-0">
+          <h2 className="text-5xl font-semibold tracking-tight text-white sm:text-7xl">CortexAI</h2>
+          <p className="mt-8 text-pretty text-lg font-medium text-gray-300 sm:text-xl/8">
+            Anim aute i
+          </p>
         </div>
-
-        {/* Main Content Container */}
-        <div className="relative mx-auto max-w-2xl lg:max-w-none p-8 md:p-12 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10">
-          {/* Title and Subtitle */}
-          <div className="relative max-w-3xl mx-auto text-center space-y-14 -mt-7">
-            <h1 className="font-display text-3xl sm:text-6xl md:text-7xl p-1 font-bold tracking-losely bg-gradient-to-r from-red-800 to-blue-700 text-transparent bg-clip-text leading-tight">
-              <span className="inline-block animate-out hover:animate-out ">AI</span>
-              <br />
-              <span className="inline-block bg-gradient-to-r from-red-700 tracking-tightly to-blue-700  text-transparent bg-clip-text animate-slide-up">
-                Automation Agency
-              </span>
-            </h1>
-
-            <p className="text-lg md:text-xl text-white max-w-2xl mx-auto animate-fade-in delay-500">
-              We are a leading AI development agency merging design with cutting-edge technology to create innovative solutions.
-            </p>
-
-            {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-12 animate-fade-in delay-700">
-              <a
-                href="#"
-                className="group inline-flex items-center gap-2 px-8 py-4 bg-white text-slate-900 rounded-full font-semibold transition-all duration-300 hover:bg-blue-50 hover:scale-105 shadow-lg shadow-white/10"
-              >
-                Get Started
-                <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+        <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
+          <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base/7 font-semibold text-white sm:grid-cols-2 md:flex lg:gap-x-10">
+            {links.map((link) => (
+              <a key={link.name} href={link.href}>
+                {link.name} <span aria-hidden="true">&rarr;</span>
               </a>
-              
-              <a
-                href="#"
-                className="inline-flex items-center gap-2 px-8 py-4 text-white border border-white/20 rounded-full font-semibold transition-all duration-300 hover:bg-white/10 hover:scale-105"
-              >
-                View Our Work
-              </a>
-            </div>
-
-            {/* Stats */}
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-16 pt-8 border-t border-white/10">
-              <div className="text-center">
-                <div className="text-3xl font-bold text-white">50+</div>
-                <div className="text-sm text-neutral-400 mt-1">Projects Completed</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-white">30+</div>
-                <div className="text-sm text-neutral-400 mt-1">Happy Clients</div>
-              </div>
-              <div className="text-center md:col-span-1 col-span-2">
-                <div className="text-3xl font-bold text-white">15+</div>
-                <div className="text-sm text-neutral-400 mt-1">Team Members</div>
-              </div>
-            </div>
+            ))}
           </div>
+          <dl className="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
+            {stats.map((stat) => (
+              <div key={stat.name} className="flex flex-col-reverse gap-1">
+                <dt className="text-base/7 text-gray-300">{stat.name}</dt>
+                <dd className="text-4xl font-semibold tracking-tight text-white">{stat.value}</dd>
+              </div>
+            ))}
+          </dl>
         </div>
       </div>
-    </main>
-  );
+    </div>
+  )
 }

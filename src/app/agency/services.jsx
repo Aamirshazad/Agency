@@ -1,13 +1,13 @@
 import React from 'react';
 
-export default function ServicesSection() {
+const Case2 = () => {
   return (
-    <div className="mx-auto max-w-7xl px-6 lg:px-8 mt-16">
+    <div className="mx-auto max-w-6xl px-6 mt-28 lg:px-8 mr-8 group/section [counter-increment:section]">
       <div className="mx-auto max-w-2xl lg:max-w-none">
-        <div className="lg:flex lg:items-center lg:justify-end">
+        <div className="lg:flex lg:items-center lg:justify-end lg:gap-x-8 lg:group-even/section:justify-start xl:gap-x-20">
           <div className="flex justify-center">
-            <div className="w-[32rem] flex-none lg:w-[40rem]" style={{ transform: 'none' }}>
-              <div className="justify-center lg:justify-end lg:group-even/section:justify-start relative flex aspect-[719/680] w-full transition-all duration-300">
+            <div className="w-[32rem] flex-none lg:w-[40rem]" style={{  transform: 'none' }}>
+              <div className="justify-center lg:justify-end lg:group-even/section:justify-start relative flex aspect-[719/680] w-full grayscale transition-all duration-300">
                 <svg viewBox="0 0 655 680" fill="none" className="h-full">
                   <g clipPath="url(#clip)">
                     <g className="origin-center scale-100 transition duration-500 motion-safe:group-hover:scale-105">
@@ -18,11 +18,11 @@ export default function ServicesSection() {
                           width="2400"
                           height="1800"
                           decoding="async"
-                          className="w-full bg-neutral-300 object-cover transition-transform duration-300 hover:scale-95"
+                          className="w-full bg-neutral-300 object-cover transition-transform duration-300 hover:scale-95 hover:grayscale-0"
                           sizes="(min-width: 1024px) 40rem, 32rem"
                           srcSet="https://images.pexels.com/photos/968631/pexels-photo-968631.jpeg?auto=compress&cs=tinysrgb&w=400 655w"
                           src="https://images.pexels.com/photos/968631/pexels-photo-968631.jpeg?auto=compress&cs=tinysrgb&w=400"
-                          style={{ aspectRatio: '655 / 680' }}
+                          style={{ color: 'transparent', aspectRatio: '655 / 680' }}
                         />
                       </foreignObject>
                     </g>
@@ -43,36 +43,36 @@ export default function ServicesSection() {
             </div>
           </div>
           <div>
-            <ul role="list" className="text-base text-neutral-600 mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
+            <ul role="list" className="text-base  mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
               <li className="group mt-10 first:mt-0">
                 <div style={{ opacity: 1, transform: 'none' }}>
                   <div className="pt-10 group-first:pt-0 group-first:before:hidden group-first:after:hidden relative before:absolute after:absolute before:bg-neutral-950 after:bg-neutral-950/10 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px">
-                    <strong className="font-semibold text-neutral-950">Web development. </strong>
-                    We specialize in crafting beautiful, high-quality marketing pages. The rest of the website will be a shell that uses lorem ipsum everywhere.
+                    <strong className="font-semibold ">Web development. </strong>
+                    <p className='text-neutral-400'>We specialize in crafting beautiful, high-quality marketing pages. The rest of the website will be a shell that uses lorem ipsum everywhere.</p>
                   </div>
                 </div>
               </li>
               <li className="group mt-10 first:mt-0">
                 <div style={{ opacity: 1, transform: 'none' }}>
                   <div className="pt-10 group-first:pt-0 group-first:before:hidden group-first:after:hidden relative before:absolute after:absolute before:bg-neutral-950 after:bg-neutral-950/10 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px">
-                    <strong className="font-semibold text-neutral-950">Application development. </strong>
-                    We have a team of skilled developers who are experts in the latest app frameworks, like Angular 1 and Google Web Toolkit.
+                    <strong className="font-semibold">Application development. </strong>
+                    <p className='text-neutral-400'> We have a team of skilled developers who are experts in the latest app frameworks, like Angular 1 and Google Web Toolkit.</p>
                   </div>
                 </div>
               </li>
               <li className="group mt-10 first:mt-0">
                 <div style={{ opacity: 1, transform: 'none' }}>
                   <div className="pt-10 group-first:pt-0 group-first:before:hidden group-first:after:hidden relative before:absolute after:absolute before:bg-neutral-950 after:bg-neutral-950/10 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px">
-                    <strong className="font-semibold text-neutral-950">E-commerce. </strong>
-                    We are at the forefront of modern e-commerce development, which mainly means adding your logo to the Shopify store template we've used for the past six years.
+                    <strong className="font-semibold">E-commerce. </strong>
+                    <p className='text-neutral-400'> We are at the forefront of modern e-commerce development, which mainly means adding your logo to the Shopify store template we've used for the past six years.</p>
                   </div>
                 </div>
               </li>
               <li className="group mt-10 first:mt-0">
                 <div style={{ opacity: 1, transform: 'none' }}>
                   <div className="pt-10 group-first:pt-0 group-first:before:hidden group-first:after:hidden relative before:absolute after:absolute before:bg-neutral-950 after:bg-neutral-950/10 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px">
-                    <strong className="font-semibold text-neutral-950">Custom content management. </strong>
-                    At Studio we understand the importance of having a robust and customized CMS. That's why we run all of our client projects out of a single, enormous Joomla instance.
+                    <strong className="font-semibold">Custom content management. </strong>
+                    <p className='text-neutral-400'> At Studio we understand the importance of having a robust and customized CMS. That's why we run all of our client projects out of a single, enormous Joomla instance.</p>
                   </div>
                 </div>
               </li>
@@ -82,4 +82,6 @@ export default function ServicesSection() {
       </div>
     </div>
   );
-}
+};
+
+export default Case2;

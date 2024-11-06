@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Pagez() {
   return (
-    <main className="w-full flex-auto mb-24">
+    <main className="w-full flex-auto ">
      
 
       <div className="mx-auto max-w-7xl px-6 lg:px-8 mt-24 sm:mt-32 lg:mt-40">
