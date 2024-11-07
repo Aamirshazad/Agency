@@ -10,6 +10,7 @@ import Header from '@/app/agency/header'
 import HeroSection from "./agency/herosection"
 import VisionSection  from "./agency/VisionSection"
 import Summary from "./summary"
+import Line from "./test"
 
 
 
@@ -23,6 +24,7 @@ export default function Page(){
         <Header/>
         <HeroSection/>
         <Summary/>
+    
         {/* <VisionSection/> */}
         <Pagez/>
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Case2 = () => {
   return (
-    <div className="mx-auto max-w-6xl px-6 mt-28 lg:px-8 mr-8 group/section [counter-increment:section]">
+    <div className="mx-auto mr-28 mb-56 max-w-6xl px-6 mt-28 lg:px-8  group/section [counter-increment:section]">
       <div className="mx-auto max-w-2xl lg:max-w-none">
         <div className="lg:flex lg:items-center lg:justify-end lg:gap-x-8 lg:group-even/section:justify-start xl:gap-x-20">
           <div className="flex justify-center">
@@ -26,7 +26,7 @@ const Case2 = () => {
                         />
                       </foreignObject>
                     </g>
-                    <use href="#shape" strokeWidth="2" className="stroke-neutral-950/10"></use>
+                    <use href="#shape" strokeWidth="2" className="stroke-green-600"></use>
                   </g>
                   <defs>
                     <clipPath id="clip">
@@ -43,10 +43,10 @@ const Case2 = () => {
             </div>
           </div>
           <div>
-            <ul role="list" className="text-base  mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
+            <ul role="list" className="text-base  mt-16  lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
               <li className="group mt-10 first:mt-0">
                 <div style={{ opacity: 1, transform: 'none' }}>
-                  <div className="pt-10 group-first:pt-0 group-first:before:hidden group-first:after:hidden relative before:absolute after:absolute before:bg-neutral-950 after:bg-neutral-950/10 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px">
+                  <div className="pt-10 group-first:pt-0 group-first:before:hidden group-first:after:hidden relative before:absolute after:absolute before:bg-red-600 after:bg-green-600 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px">
                     <strong className="font-semibold ">Web development. </strong>
                     <p className='text-neutral-400'>We specialize in crafting beautiful, high-quality marketing pages. The rest of the website will be a shell that uses lorem ipsum everywhere.</p>
                   </div>
@@ -54,7 +54,7 @@ const Case2 = () => {
               </li>
               <li className="group mt-10 first:mt-0">
                 <div style={{ opacity: 1, transform: 'none' }}>
-                  <div className="pt-10 group-first:pt-0 group-first:before:hidden group-first:after:hidden relative before:absolute after:absolute before:bg-neutral-950 after:bg-neutral-950/10 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px">
+                  <div className="pt-10 group-first:pt-0 group-first:before:hidden group-first:after:hidden relative before:absolute after:absolute before:bg-red-600 after:bg-green-600 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px">
                     <strong className="font-semibold">Application development. </strong>
                     <p className='text-neutral-400'> We have a team of skilled developers who are experts in the latest app frameworks, like Angular 1 and Google Web Toolkit.</p>
                   </div>
@@ -62,7 +62,7 @@ const Case2 = () => {
               </li>
               <li className="group mt-10 first:mt-0">
                 <div style={{ opacity: 1, transform: 'none' }}>
-                  <div className="pt-10 group-first:pt-0 group-first:before:hidden group-first:after:hidden relative before:absolute after:absolute before:bg-neutral-950 after:bg-neutral-950/10 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px">
+                  <div className="pt-10 group-first:pt-0 group-first:before:hidden group-first:after:hidden relative before:absolute after:absolute before:bg-red-600 after:bg-green-600 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px">
                     <strong className="font-semibold">E-commerce. </strong>
                     <p className='text-neutral-400'> We are at the forefront of modern e-commerce development, which mainly means adding your logo to the Shopify store template we've used for the past six years.</p>
                   </div>
@@ -70,7 +70,7 @@ const Case2 = () => {
               </li>
               <li className="group mt-10 first:mt-0">
                 <div style={{ opacity: 1, transform: 'none' }}>
-                  <div className="pt-10 group-first:pt-0 group-first:before:hidden group-first:after:hidden relative before:absolute after:absolute before:bg-neutral-950 after:bg-neutral-950/10 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px">
+                  <div className="pt-10 group-first:pt-0 group-first:before:hidden group-first:after:hidden relative before:absolute after:absolute before:bg-red-600 after:bg-green-600 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px">
                     <strong className="font-semibold">Custom content management. </strong>
                     <p className='text-neutral-400'> At Studio we understand the importance of having a robust and customized CMS. That's why we run all of our client projects out of a single, enormous Joomla instance.</p>
                   </div>
