@@ -31,9 +31,8 @@ export default function RootLayout({
     <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
     </head>
       <body
-        className=" scroll-smooth bg-gradient-to-r from-[#010e3b] from-20% via-[#010e3b] via-112% to-[#2e0202] to-120%
- screen h-full... text-white
-      {`${inter.className} antialiased`}"
+        className=" {`${inter.className} antialiased`} scroll-smooth bg-gradient-to-r from-[#010e3b] from-20% via-[#010e3b] via-112% to-[#2e0202] to-120%
+        screen h-full... text-white font-display"
       >
         {children}
       </body>

@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+const defaultTheme = require('tailwindcss/defaultTheme')
 
 const config: Config = {
   darkMode: ["class"],
@@ -9,8 +10,20 @@ const config: Config = {
   ],
   theme: {
     extend: {
+       fontFamily: {
+        sans: [
+          'Great Vibes',
+          ...defaultTheme.fontFamily.sans,
+        ],
+        
+        display: 'inter, sans-serif',
+         // Adds a new `font-display` class
+      },
       screens: {
-        lg: '1080px', // Custom screen width
+        sm: '480px',
+      md: '768px',
+      lg: '1080px',
+      xl: '1440px', // Custom screen width
       },
       colors: {
         background: 'hsl(var(--background))',
@@ -19,6 +32,7 @@ const config: Config = {
           DEFAULT: 'hsl(var(--card))',
           foreground: 'hsl(var(--card-foreground))'
         },
+       
         popover: {
           DEFAULT: 'hsl(var(--popover))',
           foreground: 'hsl(var(--popover-foreground))'

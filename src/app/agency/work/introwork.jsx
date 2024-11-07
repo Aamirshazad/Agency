@@ -12,7 +12,7 @@ const OurWorkSection = () => {
               Proven solutions for real-world problems.
             </span>
           </h1>
-          <div className="mt-6 max-w-3xl font-serif text-xl text-neutral-400 ">
+          <div className="mt-6 max-w-3xl font-display text-xl text-neutral-400 ">
             <p>
               We believe in efficiency and maximizing our resources to provide the best value to our clients. The primary way we do that is by re-using the same five projects we’ve been developing for the past decade.
             </p>

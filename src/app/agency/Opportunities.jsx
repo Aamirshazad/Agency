@@ -6,15 +6,15 @@ export default function OpportunitiesSection() {
       <div className="mx-auto max-w-2xl lg:max-w-none">
         <div className="max-w-2xl" style={{ opacity: 1, transform: 'none' }}>
           <h2>
-            <span className="mb-6 block font-display text-base font-semibold text-neutral-950">Services</span>
+            <span className="mb-6 block font-sans text-3xl font-semibold text-purple-800">Services</span>
             <span className="sr-only"> - </span>
-            <span className="block font-display tracking-tight text-wrap-balance text-4xl font-medium sm:text-5xl text-neutral-950">
+            <span className="block font-display tracking-tight text-wrap-balance text-3xl font-medium sm:text-5xl ">
               We help you identify, explore, and respond to new opportunities.
             </span>
           </h2>
-          <div className="mt-6 text-xl text-neutral-600">
+          <div className="mt-6 text-xl text-neutral-300">
             <p>
-              As long as those opportunities involve giving us money to re-purpose old projects — we can come up with an endless number of those.
+              As long as those opportunities involve giving us money to re-purpose old projects. we can come up with an endless number of those.
             </p>
           </div>
         </div>

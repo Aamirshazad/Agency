@@ -21,7 +21,7 @@ export default function Pagez() {
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             {/* Case Study 1 */}
             <div className="flex opacity-100">
-              <article className="relative flex w-full flex-col rounded-3xl p-6 ring-1 ring-neutral-950/5 transition hover:bg-neutral-50 sm:p-8">
+              <article className="relative flex w-full flex-col rounded-3xl p-6 ring-1 ring-neutral-950/5 transition hover:bg-neutral-300 sm:p-8">
                 <h3>
                   <a href="/work/family-fund">
                     <img
@@ -43,7 +43,7 @@ export default function Pagez() {
                 <p className="mt-6 font-display text-2xl font-semibold text-neutral-950">
                   Skip the bank, borrow from those you trust
                 </p>
-                <p className="mt-4 text-base text-">
+                <p className="mt-4 text-base text-neutral-600">
                   FamilyFund is a crowdfunding platform for friends and family, allowing users to take personal loans from their network without a traditional financial institution.
                 </p>
               </article>
