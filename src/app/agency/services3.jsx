@@ -60,8 +60,8 @@ export default function ServicesSection() {
                           decoding="async"
                           className="w-full bg-neutral-300 object-cover transition-transform duration-300 hover:scale-95"
                           sizes="(min-width: 1024px) 40rem, 32rem"
-                          srcSet="https://images.pexels.com/photos/968631/pexels-photo-968631.jpeg?auto=compress&cs=tinysrgb&w=400 655w"
-                          src="https://images.pexels.com/photos/968631/pexels-photo-968631.jpeg?auto=compress&cs=tinysrgb&w=400"
+                          srcSet="https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=400 655w"
+                          src="https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=400"
                           style={{ aspectRatio: '655 / 680' }}
                         />
                       </foreignObject>

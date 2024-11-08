@@ -30,7 +30,7 @@ export default function Pagez() {
                       width="36"
                       height="36"
                       decoding="async"
-                      src="https://images.pexels.com/photos/8566474/pexels-photo-8566474.jpeg?auto=compress&cs=tinysrgb&w=400"
+                      src="https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=400"
                       className="h-16 w-16 color-transparent rounded-full"
                     />
                   </a>

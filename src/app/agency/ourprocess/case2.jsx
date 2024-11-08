@@ -2,12 +2,12 @@ import React from 'react';
 
 const Case2 = () => {
   return (
-    <div className="mx-auto max-w-6xl px-6 mt-28 lg:px-8 mr-8 group/section [counter-increment:section]">
+    <div className="mx-auto max-w-6xl px-6 mt-28  lg:px-8 mr-20 group/section [counter-increment:section]">
       <div className="mx-auto max-w-2xl lg:max-w-none">
         <div className="lg:flex lg:items-center lg:justify-end lg:gap-x-8 lg:group-even/section:justify-start xl:gap-x-20">
           <div className="flex justify-center">
             <div className="w-[32rem] flex-none lg:w-[40rem]" style={{  transform: 'none' }}>
-              <div className="justify-center lg:justify-end lg:group-even/section:justify-start relative flex aspect-[719/680] w-full grayscale transition-all duration-300">
+              <div className="justify-center lg:justify-end lg:group-even/section:justify-start relative flex aspect-[719/680] w-full  transition-all duration-300">
                 <svg viewBox="0 0 655 680" fill="none" className="h-full">
                   <g clipPath="url(#clip)">
                     <g className="origin-center scale-100 transition duration-500 motion-safe:group-hover:scale-105">
@@ -26,7 +26,7 @@ const Case2 = () => {
                         />
                       </foreignObject>
                     </g>
-                    <use href="#shape" strokeWidth="2" className="stroke-neutral-950/10"></use>
+                    <use href="#shape" strokeWidth="2" className="stroke-red-500"></use>
                   </g>
                   <defs>
                     <clipPath id="clip">
@@ -45,14 +45,14 @@ const Case2 = () => {
           <div className="mt-12 lg:mt-0 lg:w-[35rem] lg:flex-none lg:group-even/section:order-first">
             <div style={{ opacity: 1, transform: 'none' }}>
               <div
-                className="font-display text-base font-semibold before:text-neutral-300 before:content-['/_'] after:text-neutral-950 after:content-[counter(section,decimal-leading-zero)]"
+                className="font-display text-base font-semibold before:text-neutral-300 before:content-['/_'] after:text-white after:content-[counter(section,decimal-leading-zero)]"
                 aria-hidden="true"
               ></div>
-              <h2 className="mt-2 font-display text-3xl font-medium tracking-tight text-neutral-950 sm:text-4xl">
+              <h2 className="mt-2 font-display text-3xl font-medium tracking-tight  sm:text-4xl">
                 Build
               </h2>
               <div className="mt-6">
-                <div className="space-y-6 text-base leading-7 text-neutral-600">
+                <div className="space-y-6 text-base leading-7 text-neutral-200">
                   <p>
                     Organizations across various sectors are leveraging generative AI to drive innovation and streamline operations.
                   </p>
@@ -67,27 +67,23 @@ const Case2 = () => {
               
               {/* New UL component added here */}
               <ul role="list" className="mt-4 flex flex-wrap gap-4">
-                <li className="rounded-full bg-neutral-100 px-4 py-1.5 text-base text-neutral-600">Automated reports</li>
-                <li className="rounded-full bg-neutral-100 px-4 py-1.5 text-base text-neutral-600">Predictive analytics</li>
-                <li className="rounded-full bg-neutral-100 px-4 py-1.5 text-base text-neutral-600">Market analysis</li>
-                <li className="rounded-full bg-neutral-100 px-4 py-1.5 text-base text-neutral-600">Customer insights</li>
-                <li className="rounded-full bg-neutral-100 px-4 py-1.5 text-base text-neutral-600">Risk assessment</li>
-                <li className="rounded-full bg-neutral-100 px-4 py-1.5 text-base text-neutral-600">Process optimization</li>
+                <li className="rounded-full bg-neutral-100 px-4 py-1.5 text-base text-blue-700">Automated reports</li>
+                <li className="rounded-full bg-neutral-100 px-4 py-1.5 text-base text-blue-700">Predictive analytics</li>
+                <li className="rounded-full bg-neutral-100 px-4 py-1.5 text-base text-blue-700">Market analysis</li>
+                <li className="rounded-full bg-neutral-100 px-4 py-1.5 text-base text-blue-700">Customer insights</li>
+                <li className="rounded-full bg-neutral-100 px-4 py-1.5 text-base text-blue-700">Risk assessment</li>
+                <li className="rounded-full bg-neutral-100 px-4 py-1.5 text-base text-blue-700">Process optimization</li>
               </ul>
 
               <div className="mt-8 flex items-center gap-x-6">
                 <a
                   href="#"
-                  className="inline-block rounded-md bg-neutral-950 px-3.5 py-1.5 text-sm font-semibold text-white shadow-sm ring-1 ring-neutral-950 hover:ring-neutral-950/60 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-950"
+                  className="inline-block rounded-md bg-neutral-600 px-3.5 py-1.5 text-sm font-semibold text-white shadow-sm ring-1 ring-neutral-950 hover:ring-neutral-950/60 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-950"
                 >
                   Learn more <span aria-hidden="true">&rarr;</span>
                 </a>
-                <a
-                  href="#"
-                  className="inline-block rounded-md px-3.5 py-1.5 text-sm font-semibold text-neutral-950 ring-1 ring-neutral-950 hover:ring-neutral-950/60 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-950"
-                >
-                  Get started <span aria-hidden="true">&rarr;</span>
-                </a>
+                
+              
               </div>
             </div>
           </div>

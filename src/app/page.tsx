@@ -10,32 +10,37 @@ import Header from '@/app/agency/header'
 import HeroSection from "./agency/herosection"
 import VisionSection  from "./agency/VisionSection"
 import Summary from "./summary"
-import Line from "./test"
+// import Line from "./test"
+import Helo from  "./agency/page"
+import Line from "./agency/services/Line"
 
 
 
 
 import Case3 from "./agency/ourprocess/case3"
+import { HelpCircleIcon } from "lucide-react"
 
 
 export default function Page(){
     return (
         <div>
-        <Header/>
+        
+         <Header/>
         <HeroSection/>
         <Summary/>
     
-        {/* <VisionSection/> */}
-        <Pagez/>
+         {/* <VisionSection/>  */}
+         <Pagez/> 
 
-        {/* <Testimonial/> */}
+    
         <Opportunities/>
         
       
         <Services1/>
         <Services3/>
+        <Line/>
         <About/>
-        <Foter/>
+        <Foter/> 
         
 
         </div>

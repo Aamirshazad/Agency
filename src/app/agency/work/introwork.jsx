@@ -1,26 +1,31 @@
-import React from 'react';
-
-const OurWorkSection = () => {
+export default function OurWorkSection() {
   return (
-    <div className="mx-auto max-w-7xl px-6 lg:px-8 mt-12 sm:mt-32 lg:-mt-1 pt-24">
-      <div className="mx-auto max-w-2xl lg:max-w-none">
-        <div style={{ opacity: 1, transform: 'none' }}>
-          <h1>
-            <span className="block font-display text-base font-semibold ">Our work</span>
-            <span className="sr-only"> - </span>
-            <span className="mt-6 block max-w-5xl font-display text-5xl  font-medium tracking-tight  [text-wrap:balance] sm:text-6xl">
-              Proven solutions for real-world problems.
-            </span>
-          </h1>
-          <div className="mt-6 max-w-3xl font-display text-xl text-neutral-400 ">
-            <p>
-              We believe in efficiency and maximizing our resources to provide the best value to our clients. The primary way we do that is by re-using the same five projects we’ve been developing for the past decade.
-            </p>
+    <article className=" my-10 max-w-4xl relative">
+      <div className="grid grid-cols-3 gap-x-4 gap-y-2 pt-20 relative">
+        
+        {/* Summary Heading Column */}
+        <div className="ml-12 col-span-1">
+          <h1 className="text-3xl font-bold mt-6 lg:mt-8">How We Work</h1>
+        </div>
+        
+        {/* Text Content Column with Vertical Line */}
+        <div className="col-span-2 lg:max-w-lg pl-6 mt-10">
+          <div className="pl-6 mt-12 relative before:absolute after:absolute before:bg-red-400 after:bg-green-500 before:left-0 before:top-0 before:h-10 before:w-px after:bottom-0 after:left-0 after:top-12 after:w-px">
+            <figure className="text-sm space-y-4 mt-16">
+              <blockquote className="text-neutral-400 font-display">
+                <p>Thanks to Studio, our app is running smoothly. They understood the nuances of our product and delivered exactly what we needed.</p>
+              </blockquote>
+              <blockquote className="text-neutral-400 font-display">
+                <p>The support from Studio has been outstanding. Their expertise in AI solutions was key to our success.</p>
+              </blockquote>
+              <blockquote className="text-neutral-400 display">
+                <p>Their attention to detail and dedication exceeded our expectations. CortexAI truly transformed our project.</p>
+              </blockquote>
+              <figcaption className="mt-6 font-semibold text-neutral-950">Customer Testimonials</figcaption>
+            </figure>
           </div>
         </div>
       </div>
-    </div>
+    </article>
   );
-};
-
-export default OurWorkSection;
+}

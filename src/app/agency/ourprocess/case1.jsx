@@ -7,7 +7,7 @@ const Case1 = () => {
         <div className="lg:flex lg:items-center lg:justify-end lg:gap-x-8 lg:group-even/section:justify-start xl:gap-x-20">
           <div className="flex justify-center">
             <div className="w-[30rem] flex-none lg:w-[40rem]" style={{ opacity: 1, transform: 'none' }}> {/* Changed w-[33.75rem] to w-[30rem] and lg:w-[45rem] to lg:w-[40rem] */}
-              <div className="justify-center lg:justify-end lg:group-even/section:justify-start relative flex aspect-[719/680] w-full grayscale transition-all duration-300">
+              <div className="justify-center lg:justify-end lg:group-even/section:justify-start relative flex aspect-[719/680] w-full  transition-all duration-300">
                 <svg viewBox="0 0 655 680" fill="none" className="h-full">
                   <g clipPath="url(#clip)">
                     <g className="origin-center scale-100 transition duration-500 motion-safe:group-hover:scale-105">
@@ -26,7 +26,7 @@ const Case1 = () => {
                         />
                       </foreignObject>
                     </g>
-                    <use href="#shape" strokeWidth="2" className="stroke-neutral-950/10"></use>
+                    <use href="#shape" strokeWidth="2" className="stroke-red-800"></use>
                   </g>
                   <defs>
                     <clipPath id="clip">
@@ -45,14 +45,14 @@ const Case1 = () => {
           <div className="mt-12 lg:mt-0 lg:w-[30rem] lg:flex-none lg:group-even/section:order-first"> {/* Changed lg:w-[37rem] to lg:w-[30rem] */}
             <div style={{ opacity: 1, transform: 'none' }}>
               <div
-                className="font-display text-base font-semibold before:text-neutral-300 before:content-['/_'] after:text-neutral-950 after:content-[counter(section,decimal-leading-zero)]"
+                className="font-display text-base font-semibold before:text-neutral-200 before:content-['/_'] after:text-white after:content-[counter(section,decimal-leading-zero)]"
                 aria-hidden="true"
               ></div>
-              <h2 className="mt-2 font-display text-3xl font-medium tracking-tight text-neutral-950 sm:text-4xl">
+              <h2 className="mt-2 font-display text-3xl font-medium tracking-tight sm:text-4xl">
                 Discover
               </h2>
               <div className="mt-6">
-                <div className="space-y-6 text-base leading-7 text-neutral-600">
+                <div className="space-y-6 text-base leading-7 text-neutral-200">
                   <p>
                     Educators, medical professionals, and business leaders are using generative AI to boost their
                     productivity and enhance their offerings.
@@ -70,12 +70,12 @@ const Case1 = () => {
               
               {/* New UL component added here */}
               <ul role="list" className="mt-4 flex flex-wrap gap-4">
-                <li className="rounded-full bg-neutral-100 px-4 py-1.5 text-base text-neutral-600">In-depth questionnaires</li>
-                <li className="rounded-full bg-neutral-100 px-4 py-1.5 text-base text-neutral-600">Feasibility studies</li>
-                <li className="rounded-full bg-neutral-100 px-4 py-1.5 text-base text-neutral-600">Blood samples</li>
-                <li className="rounded-full bg-neutral-100 px-4 py-1.5 text-base text-neutral-600">Employee surveys</li>
-                <li className="rounded-full bg-neutral-100 px-4 py-1.5 text-base text-neutral-600">Proofs-of-concept</li>
-                <li className="rounded-full bg-neutral-100 px-4 py-1.5 text-base text-neutral-600">Forensic audit</li>
+                <li className="rounded-full bg-neutral-100 px-4 py-1.5 text-base text-blue-800">In-depth questionnaires</li>
+                <li className="rounded-full bg-neutral-100 px-4 py-1.5 text-base text-blue-800">Feasibility studies</li>
+                <li className="rounded-full bg-neutral-100 px-4 py-1.5 text-base text-blue-800">Blood samples</li>
+                <li className="rounded-full bg-neutral-100 px-4 py-1.5 text-base text-blue-800">Employee surveys</li>
+                <li className="rounded-full bg-neutral-100 px-4 py-1.5 text-base text-blue-800">Proofs-of-concept</li>
+                <li className="rounded-full bg-neutral-100 px-4 py-1.5 text-base text-blue-800">Forensic audit</li>
               </ul>
 
               <div className="mt-8 flex items-center gap-x-6">
