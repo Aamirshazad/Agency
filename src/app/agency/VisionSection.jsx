@@ -2,11 +2,11 @@ import React from 'react';
 
 export default function VisionSection() {
   return (
-    <section className="relative w-full bg-gradient-to-b from-slate-800 to-slate-900 py-24">
+    <section className="relative  md:mx-32 rounded-3xl  bg-gradient-to-b md:my-44 shadow-xl shadow-purple-950 from-[#181342] via-[#010527] to-[#2e0202] text-white py-24">
       <div className="absolute inset-0 overflow-hidden">
         {/* Background decorative elements */}
-        <div className="absolute -left-8 top-16 h-64  bg-red-600 opacity-20 rounded-full blur-2xl animate-pulse"></div>
-        <div className="absolute -right-8 bottom-16 h-64 w-64 bg-blue-300 opacity-20 rounded-full blur-2xl animate-none "></div>
+        {/* <div className="absolute -left-8 top-16 h-64  bg-red-600 opacity-20 rounded-full blur-2xl animate-pulse"></div>
+        <div className="absolute -right-8 bottom-16 h-64 w-64 bg-blue-300 opacity-20 rounded-full blur-2xl animate-none "></div> */}
       </div>
 
       <div className="relative max-w-5xl mx-auto px-6 lg:px-8 text-center space-y-8">

@@ -134,13 +134,13 @@ export default function Contact() {
  <div >
                         <form onSubmit={handleSubmit}>
                             <h2 className="font-display text-base font-semibold ">Work inquiries</h2>
-                            <div className="isolate mt-6 -space-y-px rounded-2xl bg-white/50">
+                            <div className="isolate mt-6 -space-y-px rounded-2xl bg-neutral-400">
                                 <div className="group relative z-0 transition-all focus-within:z-10">
                                     <input id="name" autoComplete="name" placeholder=" "
                                         className="peer block w-full border border-white bg-transparent px-6 pb-4 pt-12 text-base  text-neutral-950 ring-4 ring-transparent transition focus:border-neutral-950 focus:outline-none focus:ring-neutral-950/5 group-first:rounded-t-2xl group-last:rounded-b-2xl"
                                         type="text" name="name" value={formData.name} onChange={handleChange} required />
                                     <label htmlFor="name"
-                                        className="pointer-events-none absolute left-6 top-1/2 -mt-3 origin-left text-base text-neutral-300 transition-all duration-200 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:font-semibold peer-focus:text-neutral-950 peer-[:not(:placeholder-shown)]:-translate-y-4 peer-[:not(:placeholder-shown)]:scale-75 peer-[:not(:placeholder-shown)]:font-semibold peer-[:not(:placeholder-shown)]:text-neutral-950">Name</label>
+                                        className="pointer-events-none absolute left-6 top-1/2 -mt-3 origin-left text-base transition-all duration-200 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:font-semibold peer-focus:text-neutral-950 peer-[:not(:placeholder-shown)]:-translate-y-4 peer-[:not(:placeholder-shown)]:scale-75 peer-[:not(:placeholder-shown)]:font-semibold peer-[:not(:placeholder-shown)]:text-neutral-950">Name</label>
                                     {errors.name && <p className="text-red-500 text-sm">{errors.name}</p>}
                                 </div>
                                 <div className="group relative z-0 transition-all focus-within:z-10">
@@ -148,7 +148,7 @@ export default function Contact() {
                                         className="peer block w-full border border-neutral-300 bg-transparent px-6 pb-4 pt-12 text-base text-neutral-950 ring-4 ring-transparent transition focus:border-neutral-950 focus:outline-none focus:ring-neutral-950/5 group-first:rounded-t-2xl group-last:rounded-b-2xl"
                                         type="email" name="email" value={formData.email} onChange={handleChange} required />
                                     <label htmlFor="email"
-                                        className="pointer-events-none absolute left-6 top-1/2 -mt-3 origin-left text-base text-neutral-300 transition-all duration-200 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:font-semibold peer-focus:text-neutral-950 peer-[:not(:placeholder-shown)]:-translate-y-4 peer-[:not(:placeholder-shown)]:scale-75 peer-[:not(:placeholder-shown)]:font-semibold peer-[:not(:placeholder-shown)]:text-neutral-950">Email</label>
+                                        className="pointer-events-none absolute left-6 top-1/2 -mt-3 origin-left text-base transition-all duration-200 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:font-semibold peer-focus:text-neutral-950 peer-[:not(:placeholder-shown)]:-translate-y-4 peer-[:not(:placeholder-shown)]:scale-75 peer-[:not(:placeholder-shown)]:font-semibold peer-[:not(:placeholder-shown)]:text-neutral-950">Email</label>
                                     {errors.email && <p className="text-red-500 text-sm">{errors.email}</p>}
                                 </div>
                                 <div className="group relative z-0 transition-all focus-within:z-10">
@@ -156,21 +156,21 @@ export default function Contact() {
                                         className="peer block w-full border border-neutral-300 bg-transparent px-6 pb-4 pt-12 text-base text-neutral-950 ring-4 ring-transparent transition focus:border-neutral-950 focus:outline-none focus:ring-neutral-950/5 group-first:rounded-t-2xl group-last:rounded-b-2xl"
                                         type="text" name="company" value={formData.company} onChange={handleChange} />
                                     <label htmlFor="company"
-                                        className="pointer-events-none absolute left-6 top-1/2 -mt-3 origin-left text-base text-neutral-300 transition-all duration-200 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:font-semibold peer-focus:text-neutral-950 peer-[:not(:placeholder-shown)]:-translate-y-4 peer-[:not(:placeholder-shown)]:scale-75 peer-[:not(:placeholder-shown)]:font-semibold peer-[:not(:placeholder-shown)]:text-neutral-950">Company</label>
+                                        className="pointer-events-none absolute left-6 top-1/2 -mt-3 origin-left text-base transition-all duration-200 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:font-semibold peer-focus:text-neutral-950 peer-[:not(:placeholder-shown)]:-translate-y-4 peer-[:not(:placeholder-shown)]:scale-75 peer-[:not(:placeholder-shown)]:font-semibold peer-[:not(:placeholder-shown)]:text-neutral-950">Company</label>
                                 </div>
                                 <div className="group relative z-0 transition-all focus-within:z-10">
                                     <input id="phone" autoComplete="tel" placeholder=" "
                                         className="peer block w-full border border-neutral-300 bg-transparent px-6 pb-4 pt-12 text-base text-neutral-950 ring-4 ring-transparent transition focus:border-neutral-950 focus:outline-none focus:ring-neutral-950/5 group-first:rounded-t-2xl group-last:rounded-b-2xl"
                                         type="tel" name="phone" value={formData.phone} onChange={handleChange} />
                                     <label htmlFor="phone"
-                                        className="pointer-events-none absolute left-6 top-1/2 -mt-3 origin-left text-base text-neutral-300 transition-all duration-200 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:font-semibold peer-focus:text-neutral-950 peer-[:not(:placeholder-shown)]:-translate-y-4 peer-[:not(:placeholder-shown)]:scale-75 peer-[:not(:placeholder-shown)]:font-semibold peer-[:not(:placeholder-shown)]:text-neutral-950">Phone</label>
+                                        className="pointer-events-none absolute left-6 top-1/2 -mt-3 origin-left text-base transition-all duration-200 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:font-semibold peer-focus:text-neutral-950 peer-[:not(:placeholder-shown)]:-translate-y-4 peer-[:not(:placeholder-shown)]:scale-75 peer-[:not(:placeholder-shown)]:font-semibold peer-[:not(:placeholder-shown)]:text-neutral-950">Phone</label>
                                 </div>
                                 <div className="group relative z-0 transition-all focus-within:z-10">
                                     <textarea id="message" placeholder=" "
                                         className="peer block w-full border border-neutral-300 bg-transparent px-6 pb-4 pt-12 text-base text-neutral-950 ring-4 ring-transparent transition focus:border-neutral-950 focus:outline-none focus:ring-neutral-950/5 group-first:rounded-t-2xl group-last:rounded-b-2xl"
                                         name="message" value={formData.message} onChange={handleChange} required></textarea>
                                     <label htmlFor="message"
-                                        className="pointer-events-none absolute left-6 top-1/2 -mt-3 origin-left text-base text-neutral-300 transition-all duration-200 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:font-semibold peer-focus:text-neutral-950 peer-[:not(:placeholder-shown)]:-translate-y-4 peer-[:not(:placeholder-shown)]:scale-75 peer-[:not(:placeholder-shown)]:font-semibold peer-[:not(:placeholder-shown)]:text-neutral-950">Message</label>
+                                        className="pointer-events-none absolute left-6 top-1/2 -mt-3 origin-left text-base transition-all duration-200 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:font-semibold peer-focus:text-neutral-950 peer-[:not(:placeholder-shown)]:-translate-y-4 peer-[:not(:placeholder-shown)]:scale-75 peer-[:not(:placeholder-shown)]:font-semibold peer-[:not(:placeholder-shown)]:text-neutral-950">Message</label>
                                     {errors.message && <p className="text-red-500 text-sm">{errors.message}</p>}
                                 </div>
                                 <div className="border border-neutral-300 px-6 py-8 first:rounded-t-2xl last:rounded-b-2xl">
@@ -198,7 +198,7 @@ export default function Contact() {
                                 </div>
                             </div>
                             <div className="mt-6">
-                                <button type="submit" className="block w-28 items-center rounded-md bg-neutral-950 px-3 py-1.5 text-base font-semibold text-white shadow-sm hover:bg-neutral-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-950">Submit</button>
+                                <button type="submit" className="block w-36 text-black items-center rounded-full bg-white px-3 py-1.5 text-base  shadow-sm hover:bg-blue-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-950">Let's Talking</button>
                             </div>
                         </form>
                     </div>

@@ -1,6 +1,6 @@
 export default function OurWorkSection() {
   return (
-    <article className=" my-10 max-w-4xl relative">
+    <article className=" my-10 max-w-4xl relative -mt-0">
       <div className="grid grid-cols-3 gap-x-4 gap-y-2 pt-20 relative">
         
         {/* Summary Heading Column */}

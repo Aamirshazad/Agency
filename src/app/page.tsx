@@ -10,9 +10,10 @@ import Header from '@/app/agency/header'
 import HeroSection from "./agency/herosection"
 import VisionSection  from "./agency/VisionSection"
 import Summary from "./summary"
-// import Line from "./test"
+import FAQ from "./FAQ"
 import Helo from  "./agency/page"
 import Line from "./agency/services/Line"
+import GradientLine from "./agency/services/GradientLine"
 
 
 
@@ -29,8 +30,8 @@ export default function Page(){
         <HeroSection/>
         <Summary/>
     
-         {/* <VisionSection/>  */}
-         <Pagez/> 
+         <VisionSection/>  
+
 
     
         <Opportunities/>
@@ -40,6 +41,9 @@ export default function Page(){
         <Services3/>
         <Line/>
         <About/>
+        <Line/>
+        <FAQ/> 
+        <GradientLine/>
         <Foter/> 
         
 

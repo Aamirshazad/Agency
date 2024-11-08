@@ -15,7 +15,7 @@ export default function Header() {
     }, []);
 
     return (
-        <header className={`fixed left-0 right-0  z-50 pt-6 transition-all duration-300 ${
+        <header className={`fixed left-0 right-0  z-50 pt-2 transition-all duration-300 ${
             isScrolled ? 'bg-transparent backdrop-blur-lg  rounded-t-3xl' : 'bg-transparent'
         }`}>
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -27,14 +27,14 @@ export default function Header() {
                             href="" 
                             className="group/logo relative flex items-center transition-transform duration-300 hover:scale-105"
                         >
-                            <span className="text-2xl font-bold bg-gradient-to-r from-red-500 to-blue-600 bg-clip-text text-transparent">
-                                Cortex<span className=" bg-gradient-to-r from-red-500 to-blue-400  bg-clip-text  text-transparent ">AI</span>
+                            <span className="text-3xl font-bold bg-gradient-to-r from-red-800 to-blue-900 bg-clip-text text-transparent">
+                                Cortex<span className=" bg-gradient-to-l from-red-800 to-blue-900  bg-clip-text  text-transparent ">AI</span>
                             </span>
                         </a>
 
                         <div className="flex items-center gap-x-8">
                             {/* Desktop Navigation */}
-                            <nav className="hidden bg-purple-800 p-2 rounded-md gap-x-5  text-sm font-semibold leading-6 lg:flex">
+                            <nav className="hidden bg-inherit border-2 border-white p-2 rounded-full gap-x-4  text-sm font-semibold leading-6 lg:flex">
                                 {[
                                     ['Home', '/'],
                                     

@@ -1,6 +1,6 @@
 export default function Summary() {
   return (
-    <article className=" my-16 pb-20 max-w2xl  relative">
+    <article className=" my-16  pb-20 max-w2xl   relative">
       <div className="grid grid-cols-3 gap-x-4 gap-y-2 pt-20 relative">
         
         {/* Summary Heading Column */}

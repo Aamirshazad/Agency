@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function CaseStudiesSection() {
   return (
-    <div className="mx-auto max-w-7xl px-6 lg:px-8 mt-40 font-serif">
+    <div className="mx-auto max-w-7xl px-6 lg:px-8 -mt-4 font-serif">
       <div className="mx-auto max-w-2xl lg:max-w-none">
         <h2 className="font-display text-4xl font-semibold text-purple-600">Case studies</h2>
         <div className="mt-10 space-y-20 sm:space-y-24 lg:space-y-32">
