@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Pagez() {
+export default function ServicesSection() {
   return (
     <main className="w-full flex-auto ">
      
@@ -16,12 +16,12 @@ export default function Pagez() {
         </div>
       </div>
 
-      <div className="mx-auto max-w-7xl px-6 lg:px-8 mt-16">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8 mt-16 ">
         <div className="mx-auto max-w-2xl lg:max-w-none">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             {/* Case Study 1 */}
             <div className="flex opacity-100">
-              <article className="relative flex w-full flex-col rounded-3xl p-6 ring-1 ring-neutral-950/5 transition hover:bg-neutral-300 sm:p-8">
+              <article className="relative flex w-full flex-col rounded-3xl p-6 ring-1 ring-neutral-950/5 transition hover:bg-neutral-500 sm:p-8">
                 <h3>
                   <a href="/work/family-fund">
                     <img
@@ -35,12 +35,12 @@ export default function Pagez() {
                     />
                   </a>
                 </h3>
-                <p className="mt-6 flex gap-x-2 text-sm text-neutral-950">
+                <p className="mt-6 flex gap-x-2 text-sm">
                   <time dateTime="2023" className="font-semibold">2023</time>
                   <span className="text-neutral-300" aria-hidden="true">/</span>
                   <span>Case study</span>
                 </p>
-                <p className="mt-6 font-display text-2xl font-semibold text-neutral-950">
+                <p className="mt-6 font-display text-2xl font-semibold">
                   Skip the bank, borrow from those you trust
                 </p>
                 <p className="mt-4 text-base text-neutral-600">
@@ -51,7 +51,7 @@ export default function Pagez() {
 
             {/* Case Study 2 */}
             <div className="flex opacity-100">
-              <article className="relative flex w-full flex-col rounded-3xl  p-6 ring-1 ring-neutral-950/5 transition hover:bg-neutral-50 sm:p-8">
+              <article className="relative flex w-full flex-col rounded-3xl  p-6 ring-1 ring-neutral-950/5 transition hover:bg-neutral-500 sm:p-8">
                 <h3>
                   <a href="/work/unseal">
                     <img
@@ -65,12 +65,12 @@ export default function Pagez() {
                     />
                   </a>
                 </h3>
-                <p className="mt-6 flex gap-x-2 text-sm text-neutral-950">
+                <p className="mt-6 flex gap-x-2 text-sm">
                   <time dateTime="2022" className="font-semibold">2022</time>
                   <span className="text-neutral-300" aria-hidden="true">/</span>
                   <span>Case study</span>
                 </p>
-                <p className="mt-6 font-display text-2xl font-semibold text-neutral-950">
+                <p className="mt-6 font-display text-2xl font-semibold">
                   Get a hold of your health
                 </p>
                 <p className="mt-4 text-base text-neutral-600">
@@ -81,7 +81,7 @@ export default function Pagez() {
 
             {/* Case Study 3 */}
             <div className="flex opacity-100">
-              <article className="relative flex w-full flex-col rounded-3xl p-6 ring-1 ring-neutral-950/5 transition hover:bg-neutral-50 sm:p-8">
+              <article className="relative flex w-full flex-col rounded-3xl p-6 ring-1 ring-neutral-950/5 transition hover:bg-neutral-500 sm:p-8">
                 <h3>
                   <a href="/work/phobia">
                     <img
@@ -95,12 +95,12 @@ export default function Pagez() {
                     />
                   </a>
                 </h3>
-                <p className="mt-6 flex gap-x-2 text-sm text-neutral-950">
+                <p className="mt-6 flex gap-x-2 text-sm">
                   <time dateTime="2022" className="font-semibold">2022</time>
                   <span className="text-neutral-300" aria-hidden="true">/</span>
                   <span>Case study</span>
                 </p>
-                <p className="mt-6 font-display text-2xl font-semibold text-neutral-950">
+                <p className="mt-6 font-display text-2xl font-semibold">
                   Overcome your fears, find your match
                 </p>
                 <p className="mt-4 text-base text-neutral-600">

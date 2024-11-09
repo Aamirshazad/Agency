@@ -2,6 +2,7 @@ import Pagez from "./agency/serivices1"
 import Navigate from "./agency/header"
 import Services1 from "./agency/services"
 import Services3 from "./agency/services3"
+import ServicesSection from "./agency/serivices1"
 import Opportunities from "./agency/Opportunities"
 import  About from "./agency/about"
 import Foter from "./agency/foterlink"
@@ -11,9 +12,9 @@ import HeroSection from "./agency/herosection"
 import VisionSection  from "./agency/VisionSection"
 import Summary from "./summary"
 import FAQ from "./FAQ"
-import Helo from  "./agency/page"
 import Line from "./agency/services/Line"
 import GradientLine from "./agency/services/GradientLine"
+import Ourwork from "./agency/ourwork"
 
 
 
@@ -31,17 +32,15 @@ export default function Page(){
         <Summary/>
     
          <VisionSection/>  
-
-
-    
+         <Line/>
         <Opportunities/>
-        
-      
         <Services1/>
         <Services3/>
         <Line/>
         <About/>
         <Line/>
+        <Ourwork/>
+        <ServicesSection/>
         <FAQ/> 
         <GradientLine/>
         <Foter/> 

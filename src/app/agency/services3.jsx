@@ -7,37 +7,37 @@ export default function ServicesSection() {
         <div className="lg:flex lg:items-center lg:justify-start"> {/* Swap flex direction */}
           
           {/* Text Content Column */}
-          <div className="lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
+          <div className="lg:w-1/2 lg:min-w-[33rem] lg:pl-4 text-blue-600">
             <ul role="list" className="text-base mt-16 lg:mt-0">
               <li className="group mt-10 first:mt-0">
                 <div style={{ opacity: 1, transform: 'none' }}>
                   <div className="pt-10 group-first:pt-0 group-first:before:hidden group-first:after:hidden relative before:absolute after:absolute before:bg-red-500 after:bg-green-500 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px">
-                    <strong className="font-semibold">Web development. </strong>
-                    <p className="text-neutral-400">We specialize in crafting beautiful, high-quality marketing pages. The rest of the website will be a shell that uses lorem ipsum everywhere.</p>
+                    <strong className="font-semibold text-blue-600">Custom Chatbots </strong>
+                    <p className="text-neutral-400">CortexAI’s custom chatbots provide automated, intelligent support for customers and employees, handling routine queries and tasks to free up time for your team to focus on higher-value work.</p>
                   </div>
                 </div>
               </li>
               <li className="group mt-10 first:mt-0">
                 <div style={{ opacity: 1, transform: 'none' }}>
                   <div className="pt-10 group-first:pt-0 group-first:before:hidden group-first:after:hidden relative before:absolute after:absolute before:bg-red-500 after:bg-green-500 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px">
-                    <strong className="font-semibold">Application development. </strong>
-                    <p className="text-neutral-400">We have a team of skilled developers who are experts in the latest app frameworks, like Angular 1 and Google Web Toolkit.</p>
+                    <strong className="font-semibold">Predictive Analytics </strong>
+                    <p className="text-neutral-400">By harnessing advanced predictive models like regression, neural networks, and decision trees, CortexAI enables businesses to make data-driven forecasts for better strategic planning.</p>
                   </div>
                 </div>
               </li>
               <li className="group mt-10 first:mt-0">
                 <div style={{ opacity: 1, transform: 'none' }}>
                   <div className="pt-10 group-first:pt-0 group-first:before:hidden group-first:after:hidden relative before:absolute after:absolute before:bg-red-500 after:bg-green-500 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px">
-                    <strong className="font-semibold">E-commerce. </strong>
-                    <p className="text-neutral-400">We are at the forefront of modern e-commerce development, which mainly means adding your logo to the Shopify store template we've used for the past six years.</p>
+                    <strong className="font-semibold">Natural Language Processing (NLP)</strong>
+                    <p className="text-neutral-400">Our NLP services enable AI systems to interpret human language, enhancing customer communication and internal processing with intuitive, conversational AI.</p>
                   </div>
                 </div>
               </li>
               <li className="group mt-10 first:mt-0">
                 <div style={{ opacity: 1, transform: 'none' }}>
                   <div className="pt-10 group-first:pt-0 group-first:before:hidden group-first:after:hidden relative before:absolute after:absolute before:bg-red-500 after:bg-green-500 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px">
-                    <strong className="font-semibold">Custom content management. </strong>
-                    <p className="text-neutral-400">At Studio, we understand the importance of having a robust and customized CMS. That's why we run all of our client projects out of a single, enormous Joomla instance.</p>
+                    <strong className="font-semibold"> Machine Learning Solutions </strong>
+                    <p className="text-neutral-400">CortexAI’s machine learning solutions enable systems to learn from data and improve over time, adapting to real-time insights and user interactions.</p>
                   </div>
                 </div>
               </li>

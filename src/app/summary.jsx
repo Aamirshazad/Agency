@@ -9,17 +9,21 @@ export default function Summary() {
         </div>
         
         {/* Text Content Column with Vertical Line */}
-        <div className="col-span-2 lg:max-w-lg pl-6 mt-10">
-          <div className="pl-6 mt-12 relative before:absolute after:absolute before:bg-red-400 after:bg-green-500 before:left-0 before:top-0 before:h-10 before:w-px after:bottom-0 after:left-0 after:top-12 after:w-px">
-            <figure className="text-sm space-y-4 mt-16">
-              <blockquote className="text-neutral-400 font-display">
-                <p>Thanks to Studio, our app is running smoothly. They understood the nuances of our product and delivered exactly what we needed.</p>
+        <div className="col-span-2 lg:max-w-lg pl-6 w-screen  mt-10">
+          <div className="pl-6 mt-12  relative before:absolute after:absolute before:bg-red-400 after:bg-green-500 before:left-0 before:top-0 before:h-10 before:w-px after:bottom-0 after:left-0 after:top-12 after:w-px">
+            <figure className=" space-y-4 mt-16">
+              <blockquote className="text-neutral-300 font-display ">
+                <p>
+                   At CortexAI, we specialize in reshaping the way businesses operate by integrating advanced AI automation solutions that drive efficiency and elevate performance  </p>
               </blockquote>
-              <blockquote className="text-neutral-400 font-display">
-                <p>The support from Studio has been outstanding. Their expertise in AI solutions was key to our success.</p>
+              <blockquote className="text-neutral-300 font-display">
+                <p>  Our team works closely with companies to pinpoint and transform areas ripe for automation, enabling them to streamline daily operations and reduce costs without the need for complex technical skills or coding knowledge.</p>
               </blockquote>
               <blockquote className="text-neutral-400 display">
-                <p>Their attention to detail and dedication exceeded our expectations. CortexAI truly transformed our project.</p>
+                <p>By choosing CortexAI as their AI automation partner, businesses unlock the full potential of their operations through intelligent automation, freeing up valuable time and resources.</p>
+              </blockquote>
+              <blockquote className="text-neutral-400 display">
+                <p><strong>Our goal is simple:</strong> to help companies achieve more, spend less, and maximize revenue by creating solutions tailored to their unique needs.</p>
               </blockquote>
               <figcaption className="mt-6 font-semibold text-neutral-950">Customer Testimonials</figcaption>
             </figure>

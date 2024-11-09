@@ -1,24 +1,10 @@
 import React from 'react';
-
-export default function OpportunitiesSection() {
-  return (
-    <div className="mx-auto max-w-7xl px-6 lg:px-8 mt-24 sm:mt-32 lg:mt-40">
-      <div className="mx-auto max-w-2xl lg:max-w-none">
-        <div className="max-w-2xl" style={{ opacity: 1, transform: 'none' }}>
-          <h2>
-            <span className="mb-6 block font-sans text-3xl font-semibold text-purple-800">Services</span>
-            <span className="sr-only"> - </span>
-            <span className="block font-display tracking-tight text-wrap-balance text-3xl font-medium sm:text-5xl ">
-              We help you identify, explore, and respond to new opportunities.
-            </span>
-          </h2>
-          <div className="mt-6 text-xl text-neutral-300">
-            <p>
-              As long as those opportunities involve giving us money to re-purpose old projects. we can come up with an endless number of those.
-            </p>
-          </div>
-        </div>
+export default function OpportunitiesSection (){
+  return(
+      <div className="place-items-center place-content-center md:mt-16   "> 
+          <h1 className="text-6xl font-medium w-4/5 text-center pt-12 mt-20">We help you discover and seize new opportunities to drive growth and innovation.</h1>
+          <p className="text-lg w-3/5 text-center p-8">We apply AI to optimize and revitalize your business, driving efficiency, innovation, and new growth opportunities for your business.</p>
       </div>
-    </div>
-  );
+  )
 }
+
