@@ -113,24 +113,7 @@ export default function ServicesSection() {
       </div>
 
       {/* SVG with camelCase properties */}
-      <svg
-        aria-hidden="true"
-        className="absolute inset-0 -z-10 h-full w-full fill-neutral-100 stroke-neutral-950/5"
-      >
-        <rect width="100%" height="100%" fill="url(#patternId)" strokeWidth="0"></rect>
-        <svg x="50%" y="-256" strokeWidth="0" className="overflow-visible">
-          <path
-            transform="translate(64 160)"
-            d="M45.119 4.5a11.5 11.5 0 0 0-11.277 9.245l-25.6 128C6.82 148.861 12.262 155.5 19.52 155.5h63.366a11.5 11.5 0 0 0 11.277-9.245l25.6-128c1.423-7.116-4.02-13.755-11.277-13.755H45.119Z"
-            clipPath="url(#clipId)"
-          ></path>
-        </svg>
-        <defs>
-          <clipPath id="clipId">
-            <path d="M128 0 98.572 147.138A16 16 0 0 1 82.883 160H13.117a16 16 0 0 0-15.69 12.862l-26.855 134.276A16 16 0 0 1-45.117 320H-116M64-160 34.572-12.862A16 16 0 0 1 18.883 0h-69.766a16 16 0 0 0-15.69 12.862l-26.855 134.276A16 16 0 0 1-109.117 160H-180" />
-          </clipPath>
-        </defs>
-      </svg>
+     
     </main>
   );
 }
