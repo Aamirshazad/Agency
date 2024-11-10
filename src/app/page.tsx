@@ -8,7 +8,7 @@ import  About from "./agency/about"
 import Foter from "./agency/foterlink"
 // import Testimonial from "./agency/testnomial"
 import Header from '@/app/agency/header'
-import HeroSection from "./agency/herosection"
+import NowPlatform from "./agency/herosection"
 import VisionSection  from "./agency/VisionSection"
 import Summary from "./summary"
 import FAQ from "./FAQ"
@@ -28,7 +28,7 @@ export default function Page(){
         <div>
         
          <Header/>
-        <HeroSection/>
+        <NowPlatform/>
         <Summary/>
     
          <VisionSection/>  

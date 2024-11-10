@@ -5,7 +5,7 @@ export default function Summary() {
         
         {/* Summary Heading Column */}
         <div className="ml-12 col-span-1">
-          <h1 className="text-3xl font-bold mt-6 lg:mt-8">Summary</h1>
+          <h1 className="text-3xl font-bold mt-6 lg:mt-8">About Us?</h1>
         </div>
         
         {/* Text Content Column with Vertical Line */}
