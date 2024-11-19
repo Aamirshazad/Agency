@@ -4,47 +4,56 @@ export default function ServicesSection() {
   return (
     <div className="mx-auto my-28 max-w-7xl px-6 lg:px-8 mt-16">
       <div className="mx-auto max-w-2xl lg:max-w-none">
-        <div className="lg:flex lg:items-center lg:justify-start"> {/* Swap flex direction */}
-          
-          {/* Text Content Column */}
-          <div className="lg:w-1/2 lg:min-w-[33rem] lg:pl-4 text-blue-600">
-            <ul role="list" className="text-base mt-16 lg:mt-0">
-              <li className="group mt-10 first:mt-0">
-                <div style={{ opacity: 1, transform: 'none' }}>
-                  <div className="pt-10 group-first:pt-0 group-first:before:hidden group-first:after:hidden relative before:absolute after:absolute before:bg-red-500 after:bg-green-500 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px">
-                    <strong className="font-semibold text-blue-600">Custom Chatbots </strong>
-                    <p className="text-neutral-400">CortexAI’s custom chatbots provide automated, intelligent support for customers and employees, handling routine queries and tasks to free up time for your team to focus on higher-value work.</p>
-                  </div>
+        <div className="lg:flex lg:items-center lg:justify-start"> 
+        <div className="mt-12 lg:mt-0 lg:w-[35rem] lg:flex-none lg:group-even/section:order-first">
+            <div style={{ opacity: 1, transform: 'none' }}>
+              <div
+                className="font-display text-base font-semibold before:text-neutral-300  after:text-white after:content-[counter(section,decimal-leading-zero)]"
+                aria-hidden="true"
+              ></div>
+              <h2 className="mt-2 font-display text-3xl font-medium tracking-tight  sm:text-4xl">
+                Process 
+              </h2>
+              <div className="mt-6">
+                <div className="space-y-6 text-base leading-7 text-neutral-200">
+                  <p>
+                    Organizations across various sectors are leveraging generative AI to drive innovation and streamline operations.
+                  </p>
+                  <p>
+                    From automating repetitive tasks to enhancing decision-making processes, generative AI can transform workflows and productivity.
+                  </p>
+                  <p>
+                    Discover how you can implement AI-driven solutions to propel your organization forward.
+                  </p>
                 </div>
-              </li>
-              <li className="group mt-10 first:mt-0">
-                <div style={{ opacity: 1, transform: 'none' }}>
-                  <div className="pt-10 group-first:pt-0 group-first:before:hidden group-first:after:hidden relative before:absolute after:absolute before:bg-red-500 after:bg-green-500 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px">
-                    <strong className="font-semibold">Predictive Analytics </strong>
-                    <p className="text-neutral-400">By harnessing advanced predictive models like regression, neural networks, and decision trees, CortexAI enables businesses to make data-driven forecasts for better strategic planning.</p>
-                  </div>
-                </div>
-              </li>
-              <li className="group mt-10 first:mt-0">
-                <div style={{ opacity: 1, transform: 'none' }}>
-                  <div className="pt-10 group-first:pt-0 group-first:before:hidden group-first:after:hidden relative before:absolute after:absolute before:bg-red-500 after:bg-green-500 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px">
-                    <strong className="font-semibold">Natural Language Processing (NLP)</strong>
-                    <p className="text-neutral-400">Our NLP services enable AI systems to interpret human language, enhancing customer communication and internal processing with intuitive, conversational AI.</p>
-                  </div>
-                </div>
-              </li>
-              <li className="group mt-10 first:mt-0">
-                <div style={{ opacity: 1, transform: 'none' }}>
-                  <div className="pt-10 group-first:pt-0 group-first:before:hidden group-first:after:hidden relative before:absolute after:absolute before:bg-red-500 after:bg-green-500 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px">
-                    <strong className="font-semibold"> Machine Learning Solutions </strong>
-                    <p className="text-neutral-400">CortexAI’s machine learning solutions enable systems to learn from data and improve over time, adapting to real-time insights and user interactions.</p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
+              </div>
+              
+              {/* New UL component added here */}
+              <ul role="list" className="mt-4 flex flex-wrap gap-4">
+                <li className="rounded-full bg-neutral-100 px-4 py-1.5 text-base text-blue-700">Consulting Phase </li>
+                <li className="rounded-full bg-neutral-100 px-4 py-1.5 text-base text-blue-700">Identifying Scope</li>
+                <li className="rounded-full bg-neutral-100 px-4 py-1.5 text-base text-blue-700">MVP (Minimum Viable Product)</li>
+                <li className="rounded-full bg-neutral-100 px-4 py-1.5 text-base text-blue-700">End-to-end Development</li>
+                <li className="rounded-full bg-neutral-100 px-4 py-1.5 text-base text-blue-700">Scaling</li>
+                <li className="rounded-full bg-neutral-100 px-4 py-1.5 text-base text-blue-700">Maintenance </li>
+              </ul>
 
-          {/* Image Column */}
+              <div className="mt-8 flex items-center gap-x-6">
+                <a
+                  href="#"
+                  className="inline-block rounded-md bg-neutral-600 px-3.5 py-1.5 text-sm font-semibold text-white shadow-sm ring-1 ring-neutral-950 hover:ring-neutral-950/60 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-950"
+                >
+                  Learn more <span aria-hidden="true">&rarr;</span>
+                </a>
+                
+              
+              </div>
+            </div>
+          </div>
+          
+         
+
+         
           <div className="flex justify-center lg:justify-end">
             <div className="w-[32rem] flex-none lg:w-[40rem]" style={{ transform: 'none' }}>
               <div className="justify-center lg:justify-end lg:group-even/section:justify-start relative flex aspect-[719/680] w-full transition-all duration-300">

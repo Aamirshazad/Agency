@@ -16,6 +16,11 @@ import FAQ from "./FAQ"
 import Line from "./agency/services/Line"
 import GradientLine from "./agency/services/GradientLine"
 import Ourwork from "./agency/ourwork"
+import Niche from "./agency/niche"
+import IndustrySlide from "./agency/services/industry"
+import ServicesCard from "./agency/services/FeatureSection2"
+import ProcessPhases from "./businessProcess"
+import WorkProcess  from "./agency/workprocess"
 
 
 
@@ -32,16 +37,35 @@ export default function Page(){
         <NowPlatform/>
         <Summary/>
     
-         <VisionSection/>  
-         <Line/>
+         {/*    */}
+         {/* <Line/> */}
         <Opportunities/>
-        <Services1/>
-        <Services3/>
-        <Line/>
-        <About/>
-        <Line/>
+        <ServicesCard/>
+       
+        {/* < IndustrySlide/> */}
+        
+        
+        {/* <Line/> */}
+        
+        {/* <Line/> */}
+       
+        
+        <Niche/>
+        < IndustrySlide/>
+       
+        
         <Ourwork/>
+        
         <ServicesSection/>
+        <VisionSection/>
+        <WorkProcess/>
+        {/* <ProcessPhases/> */}
+        {/* <Services/> */}
+        
+        <Services3/>
+       
+        <About/>
+
         <FAQ/> 
         <GradientLine/>
         <Foter/> 

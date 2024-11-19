@@ -43,7 +43,7 @@ const Case2 = () => {
             </div>
           </div>
     <div>
-            <ul role="list" className="text-base  mt-16 text-blue-700  lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
+            <ul role="list" className="text-base  mt-16 text-blue-500  lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
               <li className="group mt-10 first:mt-0">
                 <div style={{ opacity: 1, transform: 'none' }}>
                   <div className="pt-10 group-first:pt-0 group-first:before:hidden group-first:after:hidden relative before:absolute after:absolute before:bg-red-600 after:bg-green-600 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px">
@@ -56,7 +56,7 @@ const Case2 = () => {
                 <div style={{ opacity: 1, transform: 'none' }}>
                   <div className="pt-10 group-first:pt-0 group-first:before:hidden group-first:after:hidden relative before:absolute after:absolute before:bg-red-600 after:bg-green-600 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px">
                     <strong className="font-semibold">Custom AI SaaS Application Development </strong>
-                    <p className='text-neutral-400'> CortexAI develops AI-powered SaaS applications tailored to specific business requirements, from customer-facing tools to backend analytical platforms.</p>
+                    <p className='text-neutral-300'> CortexAI develops AI-powered SaaS applications tailored to specific business requirements, from customer-facing tools to backend analytical platforms.</p>
                   </div>
                 </div>
               </li>
@@ -73,10 +73,17 @@ const Case2 = () => {
                   <div className="pt-10 group-first:pt-0 group-first:before:hidden group-first:after:hidden relative before:absolute after:absolute before:bg-red-600 after:bg-green-600 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px">
                     <strong className="font-semibold">AI Model Development & MLOps </strong>
                     <p className='text-neutral-400'>From model design to deployment and monitoring, CortexAI’s MLOps support keeps your AI solutions running at peak performance with adaptive models that evolve with your business. </p>
+                   
                   </div>
+                  
                 </div>
+              
               </li>
+              
             </ul>
+            <div  className="mt-10 text-2xl bg-transparent  p-4 rounded-2xl font-semibold text-green-500 hover:bg-gray-800">
+              <a href='#'>View more services </a >
+              </div>
           </div>
         </div>
       </div>

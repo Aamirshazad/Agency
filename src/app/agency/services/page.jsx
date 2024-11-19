@@ -5,6 +5,7 @@ import Line from "./Line"
 import Mission from "./Mission"
 import VideoSection from "./video"
 import FeatureSection from "./FeatureSection"
+import IndustrySlide from "./industry"
 import FeatureSection2 from "./FeatureSection2"
 import GradientLine from "./GradientLine"
 import About from "../about"
@@ -23,7 +24,7 @@ export default function Page()
             <Mission/>
             <VideoSection/>
             <Line/>
-            <FeatureSection/>
+            <IndustrySlide/>
             <FeatureSection2/>
             <FeatureSection/>
             <GradientLine/>

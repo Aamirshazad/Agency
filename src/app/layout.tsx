@@ -30,7 +30,7 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       </head>
-      <body className="overflow-hidden  bg-gradient-to-bl from-[#020308] via-[#00010a] to-[#2e0202] text-white font-display">
+      <body className="overflow-hidden  bg-gradient-to-bl from-[#11183b] via-[#010846] to-[#2b0202] text-white font-display">
         <div className="flex h-screen md:flex-row">
         
         
