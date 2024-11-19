@@ -1,3 +1,4 @@
+"use client"
 import Pagez from "./agency/serivices1"
 import Navigate from "./agency/header"
 import Services1 from "./agency/services"
