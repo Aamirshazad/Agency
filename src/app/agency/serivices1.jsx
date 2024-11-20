@@ -43,7 +43,7 @@ export default function ServicesSection() {
                 <p className="mt-6 font-display text-2xl font-semibold">
                   Skip the bank, borrow from those you trust
                 </p>
-                <p className="mt-4 text-base text-neutral-600">
+                <p className="mt-4 text-base text-neutral-300">
                   FamilyFund is a crowdfunding platform for friends and family, allowing users to take personal loans from their network without a traditional financial institution.
                 </p>
               </article>
@@ -73,7 +73,7 @@ export default function ServicesSection() {
                 <p className="mt-6 font-display text-2xl font-semibold">
                   Get a hold of your health
                 </p>
-                <p className="mt-4 text-base text-neutral-600">
+                <p className="mt-4 text-base text-neutral-300">
                   Unseal is the first NFT platform where users can mint and trade NFTs of their own personal health records, allowing them to take control of their data.
                 </p>
               </article>
@@ -103,7 +103,7 @@ export default function ServicesSection() {
                 <p className="mt-6 font-display text-2xl font-semibold">
                   Overcome your fears, find your match
                 </p>
-                <p className="mt-4 text-base text-neutral-600">
+                <p className="mt-4 text-base text-neutral-300">
                   Phobia is a dating app that matches users based on their mutual phobias so they can be scared together.
                 </p>
               </article>

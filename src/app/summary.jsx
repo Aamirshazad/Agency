@@ -12,10 +12,10 @@ export default function Summary() {
          
 
           {/* Content Section */}
-          <div className="lg:w-6/12 "  data-aos="fade-up" data-aos-delay="100">
+          <div className="lg:w-7/12 "  data-aos="fade-up" data-aos-delay="100">
             <h3 className="text-4xl font-bold  mb-3">About Us</h3>
-            <p className=" mb-4 text-lg">
-              Crafting bespoke AI solutions for tomorrow's challenges
+            <p className=" mb-8 text-lg text-green-500 ">
+            Scale-ups, business around the globe trust our development teams to manage software from ideation to release and beyond. We enrich organizations with talent that boosts scalability, drives growth and brings disruptive ideas to life.
             </p>
             <ul className="space-y-4">
 
@@ -40,7 +40,7 @@ export default function Summary() {
                     Innovative Solutions for Complex Challenges
                   </h4>
                   <p className="text-neutral-300">
-                    NexusAI specializes in addressing the intricacies of modern AI solutions. Our expert team navigates through multifaceted issues, delivering tailored AI solutions.
+                    CortixAI specializes in addressing the intricacies of modern AI solutions. Our expert team navigates through multifaceted issues, delivering tailored AI solutions.
                   </p>
                 </div>
               </li>
@@ -53,17 +53,17 @@ export default function Summary() {
                     Commitment to Excellence in Execution
                   </h4>
                   <p className="text-neutral-300">
-                    At NexusAI, our focus is on delivering impactful AI solutions that address immediate needs while anticipating future challenges, ensuring sustained growth and success.
+                    At CortixAI, our focus is on delivering impactful AI solutions that address immediate needs while anticipating future challenges, ensuring sustained growth and success.
                   </p>
                 </div>
               </li>
             </ul>
-            <p className="text-neutral-300 mt-4">
-              At NexusAI, we recognize that navigating the complexities of artificial intelligence can be challenging. Our mission is to simplify these complexities by delivering tailored AI solutions.
+            <p className="text-green-500 mt-8 ">
+              <strong className='text-blue-800'>At CortixAI:</strong> we recognize that navigating the complexities of artificial intelligence can be challenging. Our mission is to simplify these complexities by delivering tailored AI solutions.
             </p>
           </div>
            {/* Image Section */}
-           <div className="relative w-full lg:w-5/12" data-aos="fade-up" data-aos-delay="200">
+           <div className="relative w-full lg:w-6/12" data-aos="fade-up" data-aos-delay="200">
             <img
               src="https://images.pexels.com/photos/699459/pexels-photo-699459.jpeg?auto=compress&cs=tinysrgb&w=400"
               alt="About Image"

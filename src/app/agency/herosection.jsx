@@ -12,7 +12,7 @@ export default function NowPlatform() {
       id: 3,
       title: "Benefit from AI",
       description: "Unlock the potential of AI to drive your business forward.",
-      videoBackground: "https://videos.pexels.com/video-files/3163534/3163534-uhd_2560_1440_30fps.mp4", // Video background
+      videoBackground: "https://videos.pexels.com/video-files/6558616/6558616-uhd_2560_1440_25fps.mp4", // Video background
     },
     {
       id: 2,

@@ -7,7 +7,7 @@ import ServicesSection from "./agency/serivices1"
 import Opportunities from "./agency/Opportunities"
 import  About from "./agency/about"
 import Foter from "./agency/foterlink"
-// import Testimonial from "./agency/testnomial"
+import Testimonial from "./agency/testnomial"
 import Header from '@/app/agency/header'
 import NowPlatform from "./agency/herosection"
 import VisionSection  from "./agency/VisionSection"
@@ -21,6 +21,9 @@ import IndustrySlide from "./agency/services/industry"
 import ServicesCard from "./agency/services/FeatureSection2"
 import ProcessPhases from "./businessProcess"
 import WorkProcess  from "./agency/workprocess"
+import AIservices from "./useservices"
+import ServicesSection2 from "./servicesdata"
+import Servicesdatatop from "./servicesdatatop"
 
 
 
@@ -36,6 +39,7 @@ export default function Page(){
          <Header/>
         <NowPlatform/>
         <Summary/>
+        {/* <Testimonial/> */}
     
          {/*    */}
          {/* <Line/> */}
@@ -63,6 +67,11 @@ export default function Page(){
         {/* <Services/> */}
         
         <Services3/>
+        <Servicesdatatop/>
+        <ServicesSection2/>
+        
+        <AIservices/>
+       
        
         <About/>
 

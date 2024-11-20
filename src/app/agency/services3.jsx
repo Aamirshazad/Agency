@@ -7,12 +7,9 @@ export default function ServicesSection() {
         <div className="lg:flex lg:items-center lg:justify-start"> 
         <div className="mt-12 lg:mt-0 lg:w-[35rem] lg:flex-none lg:group-even/section:order-first">
             <div style={{ opacity: 1, transform: 'none' }}>
-              <div
-                className="font-display text-base font-semibold before:text-neutral-300  after:text-white after:content-[counter(section,decimal-leading-zero)]"
-                aria-hidden="true"
-              ></div>
-              <h2 className="mt-2 font-display text-3xl font-medium tracking-tight  sm:text-4xl">
-                Process 
+             
+              <h2 className="mt-2 font-semibold text-3xl  tracking-tight  sm:text-4xl">
+              Our AI Automation Process 
               </h2>
               <div className="mt-6">
                 <div className="space-y-6 text-base leading-7 text-neutral-200">
