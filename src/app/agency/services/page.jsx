@@ -11,6 +11,7 @@ import GradientLine from "./GradientLine"
 import About from "../about"
 import ServicesTop from "./servicesTop"
 import AIServices from "./AIservices"
+import ServicesSection3 from "./srvicesnew"
 
  
 
@@ -23,15 +24,21 @@ export default function Page()
             <Header/>
             <Practice/>
             <Line/>
-            <Mission/>
+            {/* <Mission/> */}
             <VideoSection/>
             {/* <Line/> */}
+
+            <Mission/>
+            <ServicesSection3/>
+
+            <Practice/>
+            <IndustrySlide/>
             
             {/* <FeatureSection2/> */}
             {/* <ServicesTop/> */}
             <AIServices/>
             {/* <FeatureSection/> */}
-            <IndustrySlide/>
+           
             <GradientLine/>
             <About/>
             

@@ -25,7 +25,7 @@ import AIservices from "./useservices"
 import ServicesSection2 from "./servicesdata"
 import Servicesdatatop from "./servicesdatatop"
 
-
+import CaseStudyCard from "./CaseStudyCard"
 
 
 import Case3 from "./agency/ourprocess/case3"
@@ -59,16 +59,20 @@ export default function Page(){
        
         
         <Ourwork/>
-        
-        <ServicesSection/>
+        <CaseStudyCard/>
+
+        {/* <ServicesSection/> */}
         <VisionSection/>
-        <WorkProcess/>
-        {/* <ProcessPhases/> */}
-        {/* <Services/> */}
-        
-        <Services3/>
         <Servicesdatatop/>
         <ServicesSection2/>
+        <WorkProcess/>
+
+        
+        {/* <ProcessPhases/> */}
+        {/* <Services/> */}
+       
+        <Services3/>
+        
         
         <AIservices/>
        

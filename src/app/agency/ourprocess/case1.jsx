@@ -10,7 +10,7 @@ const Case1 = () => {
               <div className="justify-center lg:justify-end lg:group-even/section:justify-start relative flex aspect-[719/680] w-full  transition-all duration-300">
                 <svg viewBox="0 0 655 680" fill="none" className="h-full">
                   <g clipPath="url(#clip)">
-                    <g className="origin-center scale-100 transition duration-500 motion-safe:group-hover:scale-105">
+                    <g className="origin-center scale-200 transition duration-500 motion-safe:group-hover:scale-135">
                       <foreignObject width="655" height="680">
                         <img
                           alt="Placeholder Image"
@@ -18,7 +18,7 @@ const Case1 = () => {
                           width="2400"
                           height="1800"
                           decoding="async"
-                          className="w-full bg-neutral-100 object-cover transition-transform duration-300 hover:scale-95 hover:grayscale-0"
+                          className="w-full bg-neutral-100 object-cover transition-transform duration-300 hover:scale-95 "
                           sizes="(min-width: 1024px) 41rem, 31rem"
                           srcSet="https://images.pexels.com/photos/4065885/pexels-photo-4065885.jpeg?auto=compress&cs=tinysrgb&w=400 655w"
                           src="https://images.pexels.com/photos/4065885/pexels-photo-4065885.jpeg?auto=compress&cs=tinysrgb&w=400"
