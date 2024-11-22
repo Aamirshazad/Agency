@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <footer className="mx-auto max-w-7xl px-6 lg:px-8 mt-24 w-full sm:mt-32 lg:mt-40">
+    <footer className="mx-auto max-w-7xl px-6 lg:px-8 mt-20 w-full sm:mt-24 lg:mt-32">
       <div className="mx-auto max-w-2xl lg:max-w-none">
         <div style={{ opacity: 1, transform: 'none' }}>
           <div className="grid grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-2">
@@ -11,7 +11,7 @@ export default function Footer() {
                 {/* Work Section */}
                 <li>
                   <div className="font-display text-sm font-semibold tracking-wider ">Work</div>
-                  <ul role="list" className="mt-4 text-sm text-neutral-400">
+                  <ul role="list" className="mt-4 text-sm text-neutral-200">
                     <li className="mt-4">
                       <a className="transition hover:text-neutral-950" href="/work/family-fund">
                         FamilyFund
@@ -38,7 +38,7 @@ export default function Footer() {
                 {/* Company Section */}
                 <li>
                   <div className="font-display text-sm font-semibold tracking-wider ">Company</div>
-                  <ul role="list" className="mt-4 text-sm text-neutral-400">
+                  <ul role="list" className="mt-4 text-sm text-neutral-200">
                     <li className="mt-4">
                       <a className="transition hover:text-neutral-950" href="/about">
                         About
@@ -65,7 +65,7 @@ export default function Footer() {
                 {/* Connect Section */}
                 <li>
                   <div className="font-display text-sm font-semibold tracking-wider ">Connect</div>
-                  <ul role="list" className="mt-4 text-sm text-neutral-400">
+                  <ul role="list" className="mt-4 text-sm text-neutral-200">
                     <li className="mt-4">
                       <a className="transition hover:text-neutral-950" href="https://facebook.com">
                         Facebook
@@ -97,7 +97,7 @@ export default function Footer() {
                 <h2 className="font-display text-sm font-semibold tracking-wider ">
                   Sign up for our newsletter
                 </h2>
-                <p className="mt-4 text-sm text-neutral-400">
+                <p className="mt-4 text-sm text-neutral-200">
                   Subscribe to get the latest design news, articles, resources and inspiration.
                 </p>
                 <div className="relative mt-6">
@@ -106,7 +106,7 @@ export default function Footer() {
                     placeholder="Email address"
                     autoComplete="email"
                     aria-label="Email address"
-                    className="block w-full rounded-2xl border border-neutral-200 bg-transparent py-4 pl-6 pr-20 text-base/6 text-neutral-950 ring-4 ring-transparent transition placeholder:text-neutral-500 focus:border-neutral-950 focus:outline-none focus:ring-neutral-950/5"
+                    className="block w-full rounded-2xl border border-neutral-200 bg-transparent py-4 pl-6 pr-20 text-base/6 text-neutral-100 ring-4 ring-transparent transition placeholder:text-neutral-500 focus:border-neutral-200 focus:outline-none focus:ring-neutral-950/5"
                   />
                   <div className="absolute inset-y-1 right-1 flex justify-end">
                     <button
@@ -136,7 +136,7 @@ export default function Footer() {
                 <svg viewBox="0 0 32 32" aria-hidden="true" preserveAspectRatio="xMinYMid meet">
                   <rect
                     clipPath="url(#clipPathId)"
-                    className="h-8 transition-all duration-300 fill-neutral-950 w-0 group-hover/logo:w-8"
+                    className="h-8 transition-all duration-300 fill-neutral-100 w-0 group-hover/logo:w-8"
                   ></rect>
                   <use href="#pathId" className="stroke-neutral-950" fill="none" strokeWidth="1.5"></use>
                   <defs>
@@ -155,7 +155,7 @@ export default function Footer() {
                 ></path>
               </svg>
             </a>
-            <p className="text-sm text-neutral-700">© CortexAI Agency Inc. 2024</p>
+            <p className="text-sm text-neutral-100">© CortixAI Agency Inc. 2024</p>
           </div>
         </div>
       </div>

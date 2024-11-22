@@ -6,14 +6,14 @@ export default function ContactSection() {
       <div className="mx-auto max-w-4xl">
         <div className="max-w-xl">
           <h2 className="font-display text-4xl  font-semibild text-white text-wrap-balance sm:text-4xl ">
-          We are a fully remote agency based in Pakistan Islamabad.
+          We are a fully remote agency based in Islamabad Pakistan.
           </h2>
           <div className="mt-6 flex">
             <a
               className="inline-flex rounded-2xl px-4 py-1.5 text-sm  transition bg-white text-neutral-950 hover:bg-neutral-200"
               href="/contact"
             >
-              <span className="relative text-2xl top-px">Get Started Today</span>
+              <span className="relative text-2xl top-px">Get Start Now</span>
             </a>
           </div>
           <div className="mt-10 border-t border-white/10 pt-10">
@@ -21,20 +21,20 @@ export default function ContactSection() {
             <ul role="list" className="mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2">
               <li>
                 <address className="text-sm not-italic text-neutral-300">
-                  <strong className="text-white">Copenhagen</strong>
-                  <br />
-                  1 Carlsberg Gate
+                  <strong className="">sector 7</strong>
+                  
+                  
                   <br />
                   1260, Islamabad, Pakistan
                 </address>
               </li>
               <li>
                 <address className="text-sm not-italic text-neutral-300">
-                  <strong className="text-white">Billund</strong>
+                  <strong className="text-white">Lahore</strong>
                   <br />
                   24 Lego Allé
                   <br />
-                  7190, Islamabad, Pakistan
+                  7190, Lahore, Pakistan
                 </address>
               </li>
             </ul>

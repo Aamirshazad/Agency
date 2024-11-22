@@ -87,8 +87,8 @@ const ServicesSection = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
         </svg>
       ),
-      title: "Dedicated development teams",
-      description: "Select from a global pool of experts that can ramp up or down according to your business goals.",
+      title: "AI Automation Solutions",
+      description: "Design and deploy intelligent AI systems that automate repetitive business processes, such as data entry, reporting, and scheduling, to improve operational efficiency.",
       imageUrl: "https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
@@ -97,8 +97,8 @@ const ServicesSection = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
         </svg>
       ),
-      title: "Custom software development",
-      description: "Select from a global pool of experts that can ramp up or down according to your business goals",
+      title: "Custom AI SaaS software ",
+      description: "Build tailored AI-driven SaaS solutions to address specific business challenges, such as predictive analytics, inventory management, and personalized marketing automation.",
       imageUrl: "https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
@@ -127,8 +127,8 @@ const ServicesSection = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
         </svg>
       ),
-      title: "Cybersecurity Services",
-      description: "Protect your digital assets with comprehensive security solutions and continuous monitoring.",
+      title: "AI Model Development and Fine-Tuning",
+      description: "Build and fine-tune AI models tailored to specific use cases, ensuring high performance and accuracy. Specialize in custom training for models like GPT, Stable Diffusion, for business-specific tasks.",
       imageUrl: "https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
@@ -137,8 +137,8 @@ const ServicesSection = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
         </svg>
       ),
-      title: "Cloud Solutions",
-      description: "Design and implement scalable cloud architectures that optimize performance and reduce costs.",
+      title: "AI Consulting Services",
+      description: "Provide end-to-end consulting for businesses looking to adopt AI. Services include feasibility studies, AI strategy development, model selection, and deployment planning tailored to business objectives.",
       imageUrl: "https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=400"
     }
   ];

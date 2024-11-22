@@ -3,34 +3,34 @@ import React, { useState } from "react";
 const servicesData = [
   {
     id: 1,
-    title: "Generative AI",
-    description: "Create intelligent systems that generate text, images, and videos We apply AI to optimize and revitalize your business, driving efficiency, innovation, and new growth opportunities for your business.",
+    title: "Intelligent Chatbots & Virtual Assistants",
+    description: "Develop advanced conversational AI agents for customer support, lead generation, and service automation, ensuring 24/7 interaction and improved user engagement.",
     highlight: "01",
   },
   {
     id: 2,
-    title: "UX & UI Design",
+    title: "Custom AI SaaS Applications",
     description:
-      "Deliver rewarding user experiences with intuitive and engaging user interfaces We apply AI to optimize and revitalize your business, driving efficiency, innovation, and new growth opportunities for your business.",
+      "Build tailored AI-driven SaaS solutions to address specific business challenges, such as predictive analytics, inventory management, and personalized marketing automation.",
     highlight: "02",
   },
   {
     id: 3,
-    title: "Cloud Consulting",
-    description: "Optimize your cloud solutions for scalability and performance.",
+    title: "Intelligent Workflow Automation",
+    description: "Combine CRM/SaaS with tools like Zapier or Integromat to automate workflows across platforms like email, Slack, and billing systems.",
     highlight: "03",
   },
   {
     id: 4,
-    title: "Cloud Engineering",
+    title: "AI Model Development and Fine-Tuning",
     description:
-      "Develop robust cloud infrastructures tailored to your business needs.",
+      "Build and fine-tune AI models tailored to specific use cases, ensuring high performance and accuracy. Specialize in custom training for models like GPT, Stable Diffusion, or TensorFlow for business-specific tasks.",
     highlight: "04",
   },
   {
     id: 5,
-    title: "Data Science",
-    description: "Extract insights from data for strategic decision-making.",
+    title: "End-to-End AI System Deployment",
+    description: "Provide full-cycle deployment of AI solutions, from system design and development to implementation and ongoing maintenance, ensuring seamless integration with your infrastructure.",
     highlight: "05",
   },
 ];
@@ -50,7 +50,7 @@ const ServicesSection2 = () => {
             className={`text-left px-4 py-2 border-l-4 ${
               selectedService.id === service.id
                 ? "border-orange-500 text-orange-500 font-bold"
-                : "border-transparent text-gray-200 font-semibold hover:text-gray-800 hover:bg-slate-700"
+                : "border-transparent text-neutral-500 font-semibold hover:text-gray-800 hover:bg-slate-700"
             }`}
           >
             {service.title}

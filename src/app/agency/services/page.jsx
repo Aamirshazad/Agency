@@ -9,7 +9,7 @@ import IndustrySlide from "./industry"
 import FeatureSection2 from "./FeatureSection2"
 import GradientLine from "./GradientLine"
 import About from "../about"
-import ServicesTop from "./servicesTop"
+import ServicesTop from "./industryTop"
 import AIServices from "./AIservices"
 import ServicesSection3 from "./srvicesnew"
 
@@ -29,9 +29,12 @@ export default function Page()
             {/* <Line/> */}
 
             <Mission/>
+        
             <ServicesSection3/>
 
-            <Practice/>
+            
+
+            <ServicesTop/>
             <IndustrySlide/>
             
             {/* <FeatureSection2/> */}

@@ -24,11 +24,11 @@ export default function Header() {
                         {/* Logo Section */}
                         <a 
                             aria-label="Home" 
-                            href="" 
+                            href="https://images.pexels.com/photos/4031654/pexels-photo-4031654.jpeg?auto=compress&cs=tinysrgb&w=400" 
                             className="group/logo relative flex items-center transition-transform duration-300 hover:scale-105"
                         >
-                            <span className="text-3xl font-bold bg-gradient-to-r from-red-800 to-blue-900 bg-clip-text text-transparent">
-                                Cortex<span className=" bg-gradient-to-l from-red-800 to-blue-900  bg-clip-text  text-transparent ">AI</span>
+                            <span className="text-4xl font-bold bg-gradient-to-tl from-pink-900 to-red-800 bg-clip-text text-transparent">
+                                Cortix<span className=" bg-gradient-to-l from-red-600 to-blue-800  bg-clip-text ">AI</span>
                             </span>
                         </a>
 
