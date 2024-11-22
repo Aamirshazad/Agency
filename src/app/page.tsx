@@ -20,6 +20,7 @@ import Niche from "./agency/niche"
 import IndustrySlide from "./agency/services/industry"
 import ServicesCard from "./agency/services/FeatureSection2"
 import ProcessPhases from "./businessProcess"
+import Workprocesstop from "./agency/workprocesstop"
 import WorkProcess  from "./agency/workprocess"
 import AIservices from "./useservices"
 
@@ -75,7 +76,8 @@ export default function Page(){
         <WorkProcess/>
 
         < Wayofwork/>
-        <WorkProcess/>
+    
+        <Workprocesstop/>
         <ProcessPhases/>
         {/* <Services/> */}
        
