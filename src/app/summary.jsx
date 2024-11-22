@@ -13,7 +13,7 @@ export default function Summary() {
 
           {/* Content Section */}
           <div className="lg:w-7/12 "  data-aos="fade-up" data-aos-delay="100">
-            <h3 className="text-4xl font-bold  mb-3">About Us</h3>
+            <h3 className=" w-96 text-5xl font-sans font-semibold  mb-8">Engineering that reimagines tomorrow</h3>
             <p className=" mb-8 text-lg text-green-500 ">
             Scale-ups, business around the globe trust our development teams to manage software from ideation to release and beyond. We enrich organizations with talent that boosts scalability, drives growth and brings disruptive ideas to life.
             </p>
@@ -58,9 +58,9 @@ export default function Summary() {
                 </div>
               </li>
             </ul>
-            <p className="text-green-500 mt-8 ">
+            {/* <p className="text-green-500 mt-8 ">
               <strong className='text-blue-800'>At CortixAI:</strong> we recognize that navigating the complexities of artificial intelligence can be challenging. Our mission is to simplify these complexities by delivering tailored AI solutions.
-            </p>
+            </p> */}
           </div>
            {/* Image Section */}
            <div className="relative w-full lg:w-6/12" data-aos="fade-up" data-aos-delay="200">

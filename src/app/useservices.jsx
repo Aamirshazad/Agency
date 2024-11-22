@@ -20,11 +20,11 @@ export default function AIservices() {
         </div>
 
         {/* Culture Points */}
-        <div className="mx-auto max-w-7xl px-6 lg:px-8 mt-16">
+        <div className="mx-auto max-w-7xl  px-6 lg:px-8 mt-16">
           <div className="mx-auto max-w-2xl lg:max-w-none">
-            <ul role="list" className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3">
+            <ul role="list" className="grid grid-cols-1  gap-10 sm:grid-cols-2 lg:grid-cols-3">
               {/* Loyalty */}
-              <li className="text-base text-neutral-300 before:bg-white after:bg-white/10">
+              <li className="text-base shadow-2xl shadow-blue-950 p-4 rounded-lg text-neutral-300 before:bg-white after:bg-white/10">
                 <div style={{ opacity: 1, transform: 'none' }}>
                   <div className="pl-8 relative before:absolute after:absolute  before:bg-red-400 after:bg-green-500 before:left-0 before:top-0 before:h-6 before:w-px after:bottom-0 after:left-0 after:top-8 after:w-px">
                     <strong className="font-semibold text-orange-500">A proven track record:</strong> With several successful projects completed, CortixAI is an ideally suited AI & ML development company with validated expertise across various industries and markets.
@@ -33,7 +33,7 @@ export default function AIservices() {
               </li>
 
               {/* Trust */}
-              <li className="text-base text-neutral-300 ">
+              <li className="text-base text-neutral-300 shadow-2xl shadow-blue-950 p-4 rounded-lg ">
                 <div style={{ opacity: 1, transform: 'none' }}>
                   <div className="pl-8 relative before:absolute after:absolute before:bg-red-400 after:bg-green-500 before:left-0 before:top-0 before:h-6 before:w-px after:bottom-0 after:left-0 after:top-8 after:w-px">
                     <strong className="font-semibold text-orange-500">Leading AI & ML specialists:</strong> We don’t care when our team works just as long as they are working every waking second.
@@ -42,7 +42,7 @@ export default function AIservices() {
               </li>
 
               {/* Compassion */}
-              <li className="text-base text-neutral-300 before:bg-white after:bg-white/10">
+              <li className="text-base shadow-2xl shadow-blue-950 p-4 rounded-lg text-neutral-300 before:bg-white after:bg-white/10">
                 <div style={{ opacity: 1, transform: 'none' }}>
                   <div className="pl-8 relative before:absolute after:absolute before:bg-red-400 after:bg-green-500 before:left-0 before:top-0 before:h-6 before:w-px after:bottom-0 after:left-0 after:top-8 after:w-px">
                     <strong className="font-semibold text-orange-500">Cost-effective engineering:</strong> Develop an AI & ML project and maximize your return on investment (ROI) without compromising on quality and delivery timeline.
