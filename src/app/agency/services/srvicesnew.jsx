@@ -3,14 +3,14 @@ import React from "react";
 
 const ServicesCard = ({ icon, title, description, imageUrl = "" }) => {
   return (
-    <div className="group relative w-80 h-64 flex-shrink-0 rounded-3xl overflow-hidden transition-all duration-300 hover:shadow-xl">
+    <div className="group relative w-80 h-64 flex-shrink-0 rounded-xl overflow-hidden transition-all duration-800 hover:shadow-xl">
       {/* Default State */}
       <div className="absolute inset-0 bg-gradient-to-r from-purple-900 to-orange-500 group-hover:opacity-0 transition-opacity duration-300">
         {/* White header section */}
-        <div className="bg-white p-6 rounded-t-3xl mb-4">
+        <div className="bg-white p-6  mb-4 rounded-b-3xl  ">
           <div className="flex items-start">
             <div className="text-orange-500">{icon}</div>
-            <h3 className="text-orange-500 font-medium ml-3">{title}</h3>
+            <h3 className="text-orange-500   font-semibold ml-3">{title}</h3>
           </div>
         </div>
         {/* Description section */}
@@ -66,8 +66,8 @@ const ServicesSection3 = () => {
           />
         </svg>
       ),
-      title: "Dedicated development teams",
-      description: "Select from a global pool of experts that can ramp up or down according to your business goals.",
+      title: "AI Automation Solutions",
+      description: "Design and deploy intelligent AI systems that automate repetitive business processes, such as data entry, reporting, and scheduling, to improve operational efficiency.",
       imageUrl: "https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=400",
     },
     {
@@ -81,9 +81,9 @@ const ServicesSection3 = () => {
           />
         </svg>
       ),
-      title: "Custom software development",
-      description: "Select from a global pool of experts that can ramp up or down according to your business goals.",
-      imageUrl: "https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=400",
+      title: "AI Agents & Chatbots",
+      description: "Develop advanced conversational AI agents for customer support, lead generation, and service automation, ensuring 24/7 interaction and improved user engagement.",
+      imageUrl: "https://media.istockphoto.com/id/1435014643/photo/ai-machine-learning-robot-hand-ai-artificial-intelligence-assistance-human-touching-on-big.jpg",
     },
     {
       icon: (
@@ -96,8 +96,8 @@ const ServicesSection3 = () => {
           />
         </svg>
       ),
-      title: "AI-powered solutions",
-      description: "Integrate AI solutions to transform your business processes and boost efficiency.",
+      title: "AI-Powered Business Process Integration",
+      description: "Integrate AI into existing software ecosystems to optimize workflows, enhance productivity, and reduce manual intervention across various business operations.",
       imageUrl: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=400",
     },
 
@@ -112,8 +112,8 @@ const ServicesSection3 = () => {
           />
         </svg>
       ),
-      title: "Cloud solutions",
-      description: "Leverage cloud computing for scalable and secure infrastructure.",
+      title: "Custom AI SaaS Applications",
+      description: "Build tailored AI-driven SaaS solutions to address specific business challenges, such as predictive analytics, inventory management, and personalized marketing automation.",
       imageUrl: "https://images.pexels.com/photos/136403/pexels-photo-136403.jpeg?auto=compress&cs=tinysrgb&w=400",
     },
     {
@@ -127,8 +127,8 @@ const ServicesSection3 = () => {
           />
         </svg>
       ),
-      title: "Cybersecurity",
-      description: "Protect your business with state-of-the-art cybersecurity solutions.",
+      title: "End-to-End AI System Deployment",
+      description: "Provide full-cycle deployment of AI solutions, from system design and development to implementation and ongoing maintenance, ensuring seamless integration with your infrastructure.",
       imageUrl: "https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&w=400",
     },
     {
@@ -142,8 +142,8 @@ const ServicesSection3 = () => {
           />
         </svg>
       ),
-      title: "Data analytics",
-      description: "Turn your data into actionable insights with advanced analytics.",
+      title: "Custom Machine Learning Model Development",
+      description: "Develop tailored ML models for specific business needs, such as fraud detection, recommendation systems, and sentiment analysis, using state-of-the-art algorithms.",
       imageUrl: "https://images.pexels.com/photos/669621/pexels-photo-669621.jpeg?auto=compress&cs=tinysrgb&w=400",
     },
     // Add more services here (Example below)
@@ -158,8 +158,8 @@ const ServicesSection3 = () => {
           />
         </svg>
       ),
-      title: "Cloud solutions",
-      description: "Leverage cloud computing for scalable and secure infrastructure.",
+      title: "ML Model Optimization & Fine-Tuning",
+      description: "ML Model Optimization & Fine-Tuning.",
       imageUrl: "https://images.pexels.com/photos/136403/pexels-photo-136403.jpeg?auto=compress&cs=tinysrgb&w=400",
     },
     {
@@ -173,8 +173,8 @@ const ServicesSection3 = () => {
           />
         </svg>
       ),
-      title: "Cybersecurity",
-      description: "Protect your business with state-of-the-art cybersecurity solutions.",
+      title: "End-to-End ML Pipeline Development",
+      description: "Design and implement full ML workflows, including data preprocessing, model training, validation, deployment, and continuous monitoring.",
       imageUrl: "https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&w=400",
     },
     {
@@ -188,8 +188,8 @@ const ServicesSection3 = () => {
           />
         </svg>
       ),
-      title: "Data analytics",
-      description: "Turn your data into actionable insights with advanced analytics.",
+      title: "Cloud-based AI&ML",
+      description: "Maximize your cloud infrastructure with our cloud-based AI/ML services. Implement cost-effective, secure, and efficient AI and ML operations tailored to your business needs.",
       imageUrl: "https://images.pexels.com/photos/669621/pexels-photo-669621.jpeg?auto=compress&cs=tinysrgb&w=400",
     },
   ];

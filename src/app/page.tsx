@@ -22,8 +22,11 @@ import ServicesCard from "./agency/services/FeatureSection2"
 import ProcessPhases from "./businessProcess"
 import WorkProcess  from "./agency/workprocess"
 import AIservices from "./useservices"
+
 import ServicesSection2 from "./servicesdata"
 import Servicesdatatop from "./servicesdatatop"
+
+import  Wayofwork from "./waysofworking"
 
 import CaseStudyCard from "./CaseStudyCard"
 
@@ -51,24 +54,29 @@ export default function Page(){
         
         {/* <Line/> */}
         
-        {/* <Line/> */}
+        
        
         
         <Niche/>
         < IndustrySlide/>
+        
        
+        <Servicesdatatop/>
+        <ServicesSection2/>
+
+        
         
         <Ourwork/>
         <CaseStudyCard/>
 
         {/* <ServicesSection/> */}
         <VisionSection/>
-        <Servicesdatatop/>
-        <ServicesSection2/>
+       
         <WorkProcess/>
 
-        
-        {/* <ProcessPhases/> */}
+        < Wayofwork/>
+        <WorkProcess/>
+        <ProcessPhases/>
         {/* <Services/> */}
        
         <Services3/>

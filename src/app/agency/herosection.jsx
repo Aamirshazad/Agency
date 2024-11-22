@@ -18,7 +18,7 @@ export default function NowPlatform() {
       id: 2,
       title: "Optimize Cloud Strategies",
       description: "Maximize efficiency with cutting-edge cloud solutions.",
-      backgroundImage: "https://images.pexels.com/photos/269077/pexels-photo-269077.jpeg",
+      backgroundImage: "https://images.pexels.com/photos/6153354/pexels-photo-6153354.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     },
   ];
 
